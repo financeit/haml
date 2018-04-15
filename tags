@@ -1,0 +1,1019 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/66b4867/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+Haml (HTML Abstraction Markup Language)	REFERENCE.md	/^# Haml (HTML Abstraction Markup Language)$/;"	h	language:markdown
+Features	REFERENCE.md	/^## Features$/;"	i	language:markdown
+Using Haml	REFERENCE.md	/^## Using Haml$/;"	i	language:markdown
+Rails XSS Protection	REFERENCE.md	/^### Rails XSS Protection$/;"	k	language:markdown
+Ruby Module	REFERENCE.md	/^### Ruby Module$/;"	k	language:markdown
+Options	REFERENCE.md	/^### Options$/;"	k	language:markdown
+Encodings	REFERENCE.md	/^### Encodings$/;"	k	language:markdown
+Plain Text	REFERENCE.md	/^## Plain Text$/;"	i	language:markdown
+Escaping: `\\`	REFERENCE.md	/^### Escaping: `\\`$/;"	k	language:markdown
+HTML Elements	REFERENCE.md	/^## HTML Elements$/;"	i	language:markdown
+Element Name: `%`	REFERENCE.md	/^### Element Name: `%`$/;"	k	language:markdown
+Attributes: `{}` or `()` {#attributes}	REFERENCE.md	/^### Attributes: `{}` or `()` {#attributes}$/;"	k	language:markdown
+Class and ID: `.` and `#`	REFERENCE.md	/^### Class and ID: `.` and `#`$/;"	k	language:markdown
+Empty (void) Tags: `/`	REFERENCE.md	/^### Empty (void) Tags: `\/`$/;"	k	language:markdown
+Whitespace Removal: `>` and `<`	REFERENCE.md	/^### Whitespace Removal: `>` and `<`$/;"	k	language:markdown
+Object Reference: `[]`	REFERENCE.md	/^### Object Reference: `[]`$/;"	k	language:markdown
+Doctype: `!!!`	REFERENCE.md	/^## Doctype: `!!!`$/;"	i	language:markdown
+Comments	REFERENCE.md	/^## Comments$/;"	i	language:markdown
+HTML Comments: `/`	REFERENCE.md	/^### HTML Comments: `\/`$/;"	k	language:markdown
+Haml Comments: `-#`	REFERENCE.md	/^### Haml Comments: `-#`$/;"	k	language:markdown
+Ruby Evaluation	REFERENCE.md	/^## Ruby Evaluation$/;"	i	language:markdown
+Inserting Ruby: `=`	REFERENCE.md	/^### Inserting Ruby: `=`$/;"	k	language:markdown
+Running Ruby: `-`	REFERENCE.md	/^### Running Ruby: `-`$/;"	k	language:markdown
+Whitespace Preservation: `~` {#tilde}	REFERENCE.md	/^### Whitespace Preservation: `~` {#tilde}$/;"	k	language:markdown
+Ruby Interpolation: `#{}`	REFERENCE.md	/^### Ruby Interpolation: `#{}`$/;"	k	language:markdown
+Escaping HTML: `&=` {#escaping_html}	REFERENCE.md	/^### Escaping HTML: `&=` {#escaping_html}$/;"	k	language:markdown
+Unescaping HTML: `!=` {#unescaping_html}	REFERENCE.md	/^### Unescaping HTML: `!=` {#unescaping_html}$/;"	k	language:markdown
+Filters {#filters}	REFERENCE.md	/^## Filters {#filters}$/;"	i	language:markdown
+`:cdata`	REFERENCE.md	/^### `:cdata`$/;"	k	language:markdown
+`:coffee`	REFERENCE.md	/^### `:coffee`$/;"	k	language:markdown
+`:css`	REFERENCE.md	/^### `:css`$/;"	k	language:markdown
+`:erb`	REFERENCE.md	/^### `:erb`$/;"	k	language:markdown
+`:escaped`	REFERENCE.md	/^### `:escaped`$/;"	k	language:markdown
+`:javascript`	REFERENCE.md	/^### `:javascript`$/;"	k	language:markdown
+`:less`	REFERENCE.md	/^### `:less`$/;"	k	language:markdown
+`:markdown`	REFERENCE.md	/^### `:markdown`$/;"	k	language:markdown
+`:maruku`	REFERENCE.md	/^### `:maruku`$/;"	k	language:markdown
+`:plain`	REFERENCE.md	/^### `:plain`$/;"	k	language:markdown
+`:preserve`	REFERENCE.md	/^### `:preserve`$/;"	k	language:markdown
+`:ruby`	REFERENCE.md	/^### `:ruby`$/;"	k	language:markdown
+`:sass`	REFERENCE.md	/^### `:sass`$/;"	k	language:markdown
+`:scss`	REFERENCE.md	/^### `:scss`$/;"	k	language:markdown
+`:textile`	REFERENCE.md	/^### `:textile`$/;"	k	language:markdown
+Custom Filters	REFERENCE.md	/^### Custom Filters$/;"	k	language:markdown
+Helper Methods {#helper-methods}	REFERENCE.md	/^## Helper Methods {#helper-methods}$/;"	i	language:markdown
+surround	REFERENCE.md	/^### surround$/;"	k	language:markdown
+precede	REFERENCE.md	/^### precede$/;"	k	language:markdown
+succeed	REFERENCE.md	/^### succeed$/;"	k	language:markdown
+Multiline: `|` {#multiline}	REFERENCE.md	/^## Multiline: `|` {#multiline}$/;"	i	language:markdown
+Whitespace Preservation	REFERENCE.md	/^## Whitespace Preservation$/;"	i	language:markdown
+Helpers	REFERENCE.md	/^## Helpers$/;"	i	language:markdown
+Article	test/mocks/article.rb	/^class Article$/;"	c	language:Ruby
+initialize	test/mocks/article.rb	/^  def initialize$/;"	f	language:Ruby	class:Article
+EngineTest	test/engine_test.rb	/^class EngineTest < MiniTest::Unit::TestCase$/;"	c	language:Ruby
+EXCEPTION_MAP	test/engine_test.rb	/^  EXCEPTION_MAP = {$/;"	c	language:Ruby
+User	test/engine_test.rb	/^  User = Struct.new('User', :id)$/;"	c	language:Ruby
+CustomHamlClass	test/engine_test.rb	/^  class CustomHamlClass < Struct.new(:id)$/;"	c	language:Ruby	class:EngineTest
+haml_object_ref	test/engine_test.rb	/^    def haml_object_ref$/;"	f	language:Ruby	class:EngineTest.CustomHamlClass
+CpkRecord	test/engine_test.rb	/^  CpkRecord = Struct.new('CpkRecord', :id) do$/;"	c	language:Ruby
+to_key	test/engine_test.rb	/^    def to_key$/;"	S	language:Ruby	class:EngineTest
+use_test_tracing	test/engine_test.rb	/^  def use_test_tracing(options)$/;"	f	language:Ruby	class:EngineTest
+render	test/engine_test.rb	/^  def render(text, options = {}, &block)$/;"	f	language:Ruby	class:EngineTest
+engine	test/engine_test.rb	/^  def engine(text, options = {})$/;"	f	language:Ruby	class:EngineTest
+setup	test/engine_test.rb	/^  def setup$/;"	f	language:Ruby	class:EngineTest
+teardown	test/engine_test.rb	/^  def teardown$/;"	f	language:Ruby	class:EngineTest
+test_empty_render	test/engine_test.rb	/^  def test_empty_render$/;"	f	language:Ruby	class:EngineTest
+test_flexible_tabulation	test/engine_test.rb	/^  def test_flexible_tabulation$/;"	f	language:Ruby	class:EngineTest
+test_empty_render_should_remain_empty	test/engine_test.rb	/^  def test_empty_render_should_remain_empty$/;"	f	language:Ruby	class:EngineTest
+test_attributes_should_render_correctly	test/engine_test.rb	/^  def test_attributes_should_render_correctly$/;"	f	language:Ruby	class:EngineTest
+test_css_id_as_attribute_should_be_appended_with_underscore	test/engine_test.rb	/^  def test_css_id_as_attribute_should_be_appended_with_underscore$/;"	f	language:Ruby	class:EngineTest
+test_ruby_code_should_work_inside_attributes	test/engine_test.rb	/^  def test_ruby_code_should_work_inside_attributes$/;"	f	language:Ruby	class:EngineTest
+test_class_attr_with_array	test/engine_test.rb	/^  def test_class_attr_with_array$/;"	f	language:Ruby	class:EngineTest
+test_id_attr_with_array	test/engine_test.rb	/^  def test_id_attr_with_array$/;"	f	language:Ruby	class:EngineTest
+test_colon_in_class_attr	test/engine_test.rb	/^  def test_colon_in_class_attr$/;"	f	language:Ruby	class:EngineTest
+test_colon_in_id_attr	test/engine_test.rb	/^  def test_colon_in_id_attr$/;"	f	language:Ruby	class:EngineTest
+test_dynamic_attributes_with_no_content	test/engine_test.rb	/^  def test_dynamic_attributes_with_no_content$/;"	f	language:Ruby	class:EngineTest
+test_attributes_with_to_s	test/engine_test.rb	/^  def test_attributes_with_to_s$/;"	f	language:Ruby	class:EngineTest
+test_nil_should_render_empty_tag	test/engine_test.rb	/^  def test_nil_should_render_empty_tag$/;"	f	language:Ruby	class:EngineTest
+test_strings_should_get_stripped_inside_tags	test/engine_test.rb	/^  def test_strings_should_get_stripped_inside_tags$/;"	f	language:Ruby	class:EngineTest
+test_one_liner_should_be_one_line	test/engine_test.rb	/^  def test_one_liner_should_be_one_line$/;"	f	language:Ruby	class:EngineTest
+test_one_liner_with_newline_shouldnt_be_one_line	test/engine_test.rb	/^  def test_one_liner_with_newline_shouldnt_be_one_line$/;"	f	language:Ruby	class:EngineTest
+test_multi_render	test/engine_test.rb	/^  def test_multi_render$/;"	f	language:Ruby	class:EngineTest
+test_interpolation	test/engine_test.rb	/^  def test_interpolation$/;"	f	language:Ruby	class:EngineTest
+test_interpolation_in_the_middle_of_a_string	test/engine_test.rb	/^  def test_interpolation_in_the_middle_of_a_string$/;"	f	language:Ruby	class:EngineTest
+test_interpolation_at_the_beginning_of_a_line	test/engine_test.rb	/^  def test_interpolation_at_the_beginning_of_a_line$/;"	f	language:Ruby	class:EngineTest
+test_escaped_interpolation	test/engine_test.rb	/^  def test_escaped_interpolation$/;"	f	language:Ruby	class:EngineTest
+test_nil_tag_value_should_render_as_empty	test/engine_test.rb	/^  def test_nil_tag_value_should_render_as_empty$/;"	f	language:Ruby	class:EngineTest
+test_tag_with_failed_if_should_render_as_empty	test/engine_test.rb	/^  def test_tag_with_failed_if_should_render_as_empty$/;"	f	language:Ruby	class:EngineTest
+test_static_attributes_with_empty_attr	test/engine_test.rb	/^  def test_static_attributes_with_empty_attr$/;"	f	language:Ruby	class:EngineTest
+test_dynamic_attributes_with_empty_attr	test/engine_test.rb	/^  def test_dynamic_attributes_with_empty_attr$/;"	f	language:Ruby	class:EngineTest
+test_attribute_hash_with_newlines	test/engine_test.rb	/^  def test_attribute_hash_with_newlines$/;"	f	language:Ruby	class:EngineTest
+test_attr_hashes_not_modified	test/engine_test.rb	/^  def test_attr_hashes_not_modified$/;"	f	language:Ruby	class:EngineTest
+test_ugly_semi_prerendered_tags	test/engine_test.rb	/^  def test_ugly_semi_prerendered_tags$/;"	f	language:Ruby	class:EngineTest
+test_end_of_file_multiline	test/engine_test.rb	/^  def test_end_of_file_multiline$/;"	f	language:Ruby	class:EngineTest
+test_cr_newline	test/engine_test.rb	/^  def test_cr_newline$/;"	f	language:Ruby	class:EngineTest
+test_textareas	test/engine_test.rb	/^  def test_textareas$/;"	f	language:Ruby	class:EngineTest
+test_pre_code	test/engine_test.rb	/^  def test_pre_code$/;"	f	language:Ruby	class:EngineTest
+test_boolean_attributes	test/engine_test.rb	/^  def test_boolean_attributes$/;"	f	language:Ruby	class:EngineTest
+test_nuke_inner_whitespace_in_loops	test/engine_test.rb	/^  def test_nuke_inner_whitespace_in_loops$/;"	f	language:Ruby	class:EngineTest
+test_both_whitespace_nukes_work_together	test/engine_test.rb	/^  def test_both_whitespace_nukes_work_together$/;"	f	language:Ruby	class:EngineTest
+test_nil_option	test/engine_test.rb	/^  def test_nil_option$/;"	f	language:Ruby	class:EngineTest
+test_comment_with_crazy_nesting	test/engine_test.rb	/^  def test_comment_with_crazy_nesting$/;"	f	language:Ruby	class:EngineTest
+test_indentation_after_dynamic_attr_hash	test/engine_test.rb	/^    def test_indentation_after_dynamic_attr_hash$/;"	S	language:Ruby	class:EngineTest
+test_whitespace_nuke_with_both_newlines	test/engine_test.rb	/^  def test_whitespace_nuke_with_both_newlines$/;"	f	language:Ruby	class:EngineTest
+test_whitespace_nuke_with_tags_and_else	test/engine_test.rb	/^  def test_whitespace_nuke_with_tags_and_else$/;"	f	language:Ruby	class:EngineTest
+test_outer_whitespace_nuke_with_empty_script	test/engine_test.rb	/^  def test_outer_whitespace_nuke_with_empty_script$/;"	f	language:Ruby	class:EngineTest
+test_both_case_indentation_work_with_deeply_nested_code	test/engine_test.rb	/^  def test_both_case_indentation_work_with_deeply_nested_code$/;"	f	language:Ruby	class:EngineTest
+test_equals_block_with_ugly	test/engine_test.rb	/^  def test_equals_block_with_ugly$/;"	f	language:Ruby	class:EngineTest
+test_plain_equals_with_ugly	test/engine_test.rb	/^  def test_plain_equals_with_ugly$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_inline_if	test/engine_test.rb	/^  def test_inline_if$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_end_with_method_call	test/engine_test.rb	/^  def test_end_with_method_call$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_nested_end_with_method_call	test/engine_test.rb	/^  def test_nested_end_with_method_call$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly.test_end_with_method_call
+test_silent_end_with_stuff	test/engine_test.rb	/^  def test_silent_end_with_stuff$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly.test_end_with_method_call.test_nested_end_with_method_call
+test_multiline_with_colon_after_filter	test/engine_test.rb	/^  def test_multiline_with_colon_after_filter$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_multiline_in_filter	test/engine_test.rb	/^  def test_multiline_in_filter$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_curly_brace	test/engine_test.rb	/^  def test_curly_brace$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_escape_attrs_false	test/engine_test.rb	/^  def test_escape_attrs_false$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_escape_attrs_always	test/engine_test.rb	/^  def test_escape_attrs_always$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_escape_html	test/engine_test.rb	/^  def test_escape_html$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_new_attrs_with_hash	test/engine_test.rb	/^  def test_new_attrs_with_hash$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_silent_script_with_hyphen_case	test/engine_test.rb	/^  def test_silent_script_with_hyphen_case$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_silent_script_with_hyphen_end	test/engine_test.rb	/^  def test_silent_script_with_hyphen_end$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_silent_script_with_hyphen_end_and_block	test/engine_test.rb	/^  def test_silent_script_with_hyphen_end_and_block$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_if_without_content_and_else	test/engine_test.rb	/^  def test_if_without_content_and_else$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_html_attributes_with_hash	test/engine_test.rb	/^  def test_html_attributes_with_hash$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_case_assigned_to_var	test/engine_test.rb	/^  def test_case_assigned_to_var$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_nested_case_assigned_to_var	test/engine_test.rb	/^  def test_nested_case_assigned_to_var$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_case_assigned_to_multiple_vars	test/engine_test.rb	/^  def test_case_assigned_to_multiple_vars$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_if_assigned_to_var	test/engine_test.rb	/^  def test_if_assigned_to_var$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_case_with_newline_after_case	test/engine_test.rb	/^  def test_case_with_newline_after_case$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_escape_html_with_interpolated_if_statement	test/engine_test.rb	/^  def test_escape_html_with_interpolated_if_statement$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_ampersand_equals_should_escape	test/engine_test.rb	/^  def test_ampersand_equals_should_escape$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_ampersand_equals_inline_should_escape	test/engine_test.rb	/^  def test_ampersand_equals_inline_should_escape$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_ampersand_equals_should_escape_before_preserve	test/engine_test.rb	/^  def test_ampersand_equals_should_escape_before_preserve$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_bang_equals_should_not_escape	test/engine_test.rb	/^  def test_bang_equals_should_not_escape$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_bang_equals_inline_should_not_escape	test/engine_test.rb	/^  def test_bang_equals_inline_should_not_escape$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_static_attributes_should_be_escaped	test/engine_test.rb	/^  def test_static_attributes_should_be_escaped$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_dynamic_attributes_should_be_escaped	test/engine_test.rb	/^  def test_dynamic_attributes_should_be_escaped$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_string_double_equals_should_be_esaped	test/engine_test.rb	/^  def test_string_double_equals_should_be_esaped$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_escaped_inline_string_double_equals	test/engine_test.rb	/^  def test_escaped_inline_string_double_equals$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_unescaped_inline_string_double_equals	test/engine_test.rb	/^  def test_unescaped_inline_string_double_equals$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_escaped_string_double_equals	test/engine_test.rb	/^  def test_escaped_string_double_equals$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_unescaped_string_double_equals	test/engine_test.rb	/^  def test_unescaped_string_double_equals$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_string_interpolation_should_be_esaped	test/engine_test.rb	/^  def test_string_interpolation_should_be_esaped$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_escaped_inline_string_interpolation	test/engine_test.rb	/^  def test_escaped_inline_string_interpolation$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_unescaped_inline_string_interpolation	test/engine_test.rb	/^  def test_unescaped_inline_string_interpolation$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_escaped_string_interpolation	test/engine_test.rb	/^  def test_escaped_string_interpolation$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_unescaped_string_interpolation	test/engine_test.rb	/^  def test_unescaped_string_interpolation$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_scripts_should_respect_escape_html_option	test/engine_test.rb	/^  def test_scripts_should_respect_escape_html_option$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_inline_scripts_should_respect_escape_html_option	test/engine_test.rb	/^  def test_inline_scripts_should_respect_escape_html_option$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_script_ending_in_comment_should_render_when_html_is_escaped	test/engine_test.rb	/^  def test_script_ending_in_comment_should_render_when_html_is_escaped$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_script_with_if_shouldnt_output	test/engine_test.rb	/^  def test_script_with_if_shouldnt_output$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_filename_and_line	test/engine_test.rb	/^  def test_filename_and_line$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_stop_eval	test/engine_test.rb	/^  def test_stop_eval$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_doctypes	test/engine_test.rb	/^  def test_doctypes$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_attr_wrapper	test/engine_test.rb	/^  def test_attr_wrapper$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_autoclose_option	test/engine_test.rb	/^  def test_autoclose_option$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_attrs_parsed_correctly	test/engine_test.rb	/^  def test_attrs_parsed_correctly$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_correct_parsing_with_brackets	test/engine_test.rb	/^  def test_correct_parsing_with_brackets$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_empty_attrs	test/engine_test.rb	/^  def test_empty_attrs$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_nil_attrs	test/engine_test.rb	/^  def test_nil_attrs$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_nil_id_with_syntactic_id	test/engine_test.rb	/^  def test_nil_id_with_syntactic_id$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_nil_class_with_syntactic_class	test/engine_test.rb	/^  def test_nil_class_with_syntactic_class$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_locals	test/engine_test.rb	/^  def test_locals$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_dynamic_attrs_shouldnt_register_as_literal_values	test/engine_test.rb	/^  def test_dynamic_attrs_shouldnt_register_as_literal_values$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_dynamic_attrs_with_self_closed_tag	test/engine_test.rb	/^  def test_dynamic_attrs_with_self_closed_tag$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_exception_line	test/engine_test.rb	/^  def test_exception_line$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+SyntaxError	test/engine_test.rb	/^  rescue Haml::SyntaxError => e$/;"	c	language:Ruby
+test_exception	test/engine_test.rb	/^  def test_exception$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_compile_error	test/engine_test.rb	/^  def test_compile_error$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_unbalanced_brackets	test/engine_test.rb	/^  def test_unbalanced_brackets$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+SyntaxError	test/engine_test.rb	/^  rescue Haml::SyntaxError => e$/;"	c	language:Ruby
+test_balanced_conditional_comments	test/engine_test.rb	/^  def test_balanced_conditional_comments$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_local_assigns_dont_modify_class	test/engine_test.rb	/^  def test_local_assigns_dont_modify_class$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_object_ref_with_nil_id	test/engine_test.rb	/^  def test_object_ref_with_nil_id$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_object_ref_before_attrs	test/engine_test.rb	/^  def test_object_ref_before_attrs$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_object_ref_with_custom_haml_class	test/engine_test.rb	/^  def test_object_ref_with_custom_haml_class$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_object_ref_with_multiple_ids	test/engine_test.rb	/^  def test_object_ref_with_multiple_ids$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_non_literal_attributes	test/engine_test.rb	/^  def test_non_literal_attributes$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_render_should_accept_a_binding_as_scope	test/engine_test.rb	/^  def test_render_should_accept_a_binding_as_scope$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_yield_should_work_with_binding	test/engine_test.rb	/^  def test_yield_should_work_with_binding$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_yield_should_work_with_def_method	test/engine_test.rb	/^  def test_yield_should_work_with_def_method$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_def_method_with_module	test/engine_test.rb	/^  def test_def_method_with_module$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_def_method_locals	test/engine_test.rb	/^  def test_def_method_locals$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_render_proc_locals	test/engine_test.rb	/^  def test_render_proc_locals$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_render_proc_with_binding	test/engine_test.rb	/^  def test_render_proc_with_binding$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_haml_buffer_gets_reset_even_with_exception	test/engine_test.rb	/^  def test_haml_buffer_gets_reset_even_with_exception$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_def_method_haml_buffer_gets_reset_even_with_exception	test/engine_test.rb	/^  def test_def_method_haml_buffer_gets_reset_even_with_exception$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_render_proc_haml_buffer_gets_reset_even_with_exception	test/engine_test.rb	/^  def test_render_proc_haml_buffer_gets_reset_even_with_exception$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_render_proc_should_raise_haml_syntax_error_not_ruby_syntax_error	test/engine_test.rb	/^  def test_render_proc_should_raise_haml_syntax_error_not_ruby_syntax_error$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_render_should_raise_haml_syntax_error_not_ruby_syntax_error	test/engine_test.rb	/^  def test_render_should_raise_haml_syntax_error_not_ruby_syntax_error$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_ugly_true	test/engine_test.rb	/^  def test_ugly_true$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_remove_whitespace_true	test/engine_test.rb	/^  def test_remove_whitespace_true$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_auto_preserve_unless_ugly	test/engine_test.rb	/^  def test_auto_preserve_unless_ugly$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_xhtml_output_option	test/engine_test.rb	/^  def test_xhtml_output_option$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_arbitrary_output_option	test/engine_test.rb	/^  def test_arbitrary_output_option$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_static_hashes	test/engine_test.rb	/^  def test_static_hashes$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_dynamic_hashes_with_suppress_eval	test/engine_test.rb	/^  def test_dynamic_hashes_with_suppress_eval$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_interpolates_instance_vars_in_attribute_values	test/engine_test.rb	/^  def test_interpolates_instance_vars_in_attribute_values$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_interpolates_global_vars_in_attribute_values	test/engine_test.rb	/^  def test_interpolates_global_vars_in_attribute_values$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_utf8_attrs	test/engine_test.rb	/^  def test_utf8_attrs$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_html_has_no_self_closing_tags	test/engine_test.rb	/^  def test_html_has_no_self_closing_tags$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_html_renders_empty_node_with_closing_tag	test/engine_test.rb	/^  def test_html_renders_empty_node_with_closing_tag$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_html_doesnt_add_slash_to_self_closing_tags	test/engine_test.rb	/^  def test_html_doesnt_add_slash_to_self_closing_tags$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_html_ignores_xml_prolog_declaration	test/engine_test.rb	/^  def test_html_ignores_xml_prolog_declaration$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_html_has_different_doctype	test/engine_test.rb	/^  def test_html_has_different_doctype$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_xml_prolog_and_doctype_dont_result_in_a_leading_whitespace_in_html	test/engine_test.rb	/^  def test_xml_prolog_and_doctype_dont_result_in_a_leading_whitespace_in_html$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_html5_doctype	test/engine_test.rb	/^  def test_html5_doctype$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_html5_data_attributes_without_hyphenation	test/engine_test.rb	/^  def test_html5_data_attributes_without_hyphenation$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_html5_data_attributes_with_hyphens	test/engine_test.rb	/^  def test_html5_data_attributes_with_hyphens$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_html5_arbitrary_hash_valued_attributes_with	test/engine_test.rb	/^	def test_html5_arbitrary_hash_valued_attributes_with$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_html5_data_attributes_with_nested_hash	test/engine_test.rb	/^  def test_html5_data_attributes_with_nested_hash$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_html5_data_attributes_with_nested_hash_and_without_hyphenation	test/engine_test.rb	/^  def test_html5_data_attributes_with_nested_hash_and_without_hyphenation$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_html5_data_attributes_with_multiple_defs	test/engine_test.rb	/^  def test_html5_data_attributes_with_multiple_defs$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_html5_data_attributes_with_attr_method	test/engine_test.rb	/^  def test_html5_data_attributes_with_attr_method$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+data_hash	test/engine_test.rb	/^      def data_hash$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly.test_html5_data_attributes_with_attr_method
+data_val	test/engine_test.rb	/^      def data_val$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly.test_html5_data_attributes_with_attr_method
+test_html5_data_attributes_with_identical_attribute_values	test/engine_test.rb	/^  def test_html5_data_attributes_with_identical_attribute_values$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_xml_doc_using_html5_format_and_mime_type	test/engine_test.rb	/^  def test_xml_doc_using_html5_format_and_mime_type$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_xml_doc_using_html4_format_and_mime_type	test/engine_test.rb	/^  def test_xml_doc_using_html4_format_and_mime_type$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_basic_new_attributes	test/engine_test.rb	/^  def test_basic_new_attributes$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_new_attribute_ids	test/engine_test.rb	/^  def test_new_attribute_ids$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_new_attribute_classes	test/engine_test.rb	/^  def test_new_attribute_classes$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_dynamic_new_attributes	test/engine_test.rb	/^  def test_dynamic_new_attributes$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_new_attribute_interpolation	test/engine_test.rb	/^  def test_new_attribute_interpolation$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_truthy_new_attributes	test/engine_test.rb	/^  def test_truthy_new_attributes$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_new_attribute_parsing	test/engine_test.rb	/^  def test_new_attribute_parsing$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_new_attribute_escaping	test/engine_test.rb	/^  def test_new_attribute_escaping$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_multiline_new_attribute	test/engine_test.rb	/^  def test_multiline_new_attribute$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_new_and_old_attributes	test/engine_test.rb	/^  def test_new_and_old_attributes$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_silent_ruby_multiline	test/engine_test.rb	/^  def test_silent_ruby_multiline$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_loud_ruby_multiline	test/engine_test.rb	/^  def test_loud_ruby_multiline$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_ruby_multiline_with_punctuated_methods_is_continuation	test/engine_test.rb	/^  def test_ruby_multiline_with_punctuated_methods_is_continuation$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_ruby_character_literals_are_not_continuation	test/engine_test.rb	/^  def test_ruby_character_literals_are_not_continuation$/;"	f	language:Ruby	method:EngineTest.test_equals_block_with_ugly
+test_escaped_loud_ruby_multiline	test/engine_test.rb	/^  def test_escaped_loud_ruby_multiline$/;"	f	language:Ruby	class:EngineTest
+test_unescaped_loud_ruby_multiline	test/engine_test.rb	/^  def test_unescaped_loud_ruby_multiline$/;"	f	language:Ruby	class:EngineTest
+test_flattened_loud_ruby_multiline	test/engine_test.rb	/^  def test_flattened_loud_ruby_multiline$/;"	f	language:Ruby	class:EngineTest
+test_loud_ruby_multiline_with_block	test/engine_test.rb	/^  def test_loud_ruby_multiline_with_block$/;"	f	language:Ruby	class:EngineTest
+test_silent_ruby_multiline_with_block	test/engine_test.rb	/^  def test_silent_ruby_multiline_with_block$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block
+test_ruby_multiline_in_tag	test/engine_test.rb	/^  def test_ruby_multiline_in_tag$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+test_escaped_ruby_multiline_in_tag	test/engine_test.rb	/^  def test_escaped_ruby_multiline_in_tag$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+test_unescaped_ruby_multiline_in_tag	test/engine_test.rb	/^  def test_unescaped_ruby_multiline_in_tag$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+test_ruby_multiline_with_normal_multiline	test/engine_test.rb	/^  def test_ruby_multiline_with_normal_multiline$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+test_ruby_multiline_after_filter	test/engine_test.rb	/^  def test_ruby_multiline_after_filter$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+test_utf_8_bom	test/engine_test.rb	/^  def test_utf_8_bom$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+test_default_encoding	test/engine_test.rb	/^    def test_default_encoding$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+test_fake_ascii_encoding	test/engine_test.rb	/^    def test_fake_ascii_encoding$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+test_convert_template_render_proc	test/engine_test.rb	/^    def test_convert_template_render_proc$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+test_convert_template_render	test/engine_test.rb	/^    def test_convert_template_render$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+test_convert_template_def_method	test/engine_test.rb	/^    def test_convert_template_def_method$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+test_encoding_error	test/engine_test.rb	/^    def test_encoding_error$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+Error	test/engine_test.rb	/^    rescue Haml::Error => e$/;"	c	language:Ruby
+test_ascii_incompatible_encoding_error	test/engine_test.rb	/^    def test_ascii_incompatible_encoding_error$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+Error	test/engine_test.rb	/^    rescue Haml::Error => e$/;"	c	language:Ruby
+test_same_coding_comment_as_encoding	test/engine_test.rb	/^    def test_same_coding_comment_as_encoding$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+test_coding_comments	test/engine_test.rb	/^    def test_coding_comments$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+test_different_coding_than_system	test/engine_test.rb	/^    def test_different_coding_than_system$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+test_block_spacing	test/engine_test.rb	/^  def test_block_spacing$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block
+assert_valid_encoding_comment	test/engine_test.rb	/^  def assert_valid_encoding_comment(comment)$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block.test_block_spacing
+assert_converts_template_properly	test/engine_test.rb	/^  def assert_converts_template_properly$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block.test_block_spacing
+assert_renders_encoded	test/engine_test.rb	/^  def assert_renders_encoded(html, haml)$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block.test_block_spacing
+assert_encoded_equal	test/engine_test.rb	/^  def assert_encoded_equal(expected, actual)$/;"	f	language:Ruby	method:EngineTest.test_loud_ruby_multiline_with_block.test_silent_ruby_multiline_with_block.test_block_spacing
+UtilTest	test/util_test.rb	/^class UtilTest < MiniTest::Unit::TestCase$/;"	c	language:Ruby
+test_powerset	test/util_test.rb	/^  def test_powerset$/;"	f	language:Ruby	class:UtilTest
+test_silence_warnings	test/util_test.rb	/^  def test_silence_warnings$/;"	f	language:Ruby	class:UtilTest
+test_caller_info	test/util_test.rb	/^  def test_caller_info$/;"	f	language:Ruby	class:UtilTest
+test_def_static_method	test/util_test.rb	/^  def test_def_static_method$/;"	f	language:Ruby	class:UtilTest
+Haml	test/parser_test.rb	/^module Haml$/;"	m	language:Ruby
+ParserTest	test/parser_test.rb	/^  class ParserTest < MiniTest::Unit::TestCase$/;"	c	language:Ruby	module:Haml
+parse	test/parser_test.rb	/^    def parse(haml, options = nil)$/;"	f	language:Ruby	class:Haml.ParserTest
+Filters	test/template_test.rb	/^module Haml::Filters::Test$/;"	m	language:Ruby
+Test	test/template_test.rb	/^module Haml::Filters::Test$/;"	m	language:Ruby
+Test	test/template_test.rb	/^module Haml::Filters::Test$/;"	m	language:Ruby	module:Haml.Filters
+render	test/template_test.rb	/^  def render(text)$/;"	f	language:Ruby	module:Test
+Helpers	test/template_test.rb	/^module Haml::Helpers$/;"	m	language:Ruby
+Helpers	test/template_test.rb	/^module Haml::Helpers$/;"	m	language:Ruby	module:Haml
+test_partial	test/template_test.rb	/^  def test_partial(name, locals = {})$/;"	f	language:Ruby	module:Helpers
+Egocentic	test/template_test.rb	/^class Egocentic$/;"	c	language:Ruby
+method_missing	test/template_test.rb	/^  def method_missing(*args)$/;"	f	language:Ruby	class:Egocentic
+DummyController	test/template_test.rb	/^class DummyController$/;"	c	language:Ruby
+initialize	test/template_test.rb	/^  def initialize$/;"	f	language:Ruby	class:DummyController
+controller_path	test/template_test.rb	/^  def self.controller_path$/;"	S	language:Ruby	class:DummyController
+controller_path	test/template_test.rb	/^  def controller_path$/;"	f	language:Ruby	class:DummyController
+TemplateTest	test/template_test.rb	/^class TemplateTest < MiniTest::Unit::TestCase$/;"	c	language:Ruby
+TEMPLATE_PATH	test/template_test.rb	/^  TEMPLATE_PATH = File.join(File.dirname(__FILE__), "templates")$/;"	c	language:Ruby
+TEMPLATES	test/template_test.rb	/^  TEMPLATES = %w{          very_basic        standard    helpers$/;"	c	language:Ruby
+setup	test/template_test.rb	/^  def setup$/;"	f	language:Ruby	class:TemplateTest
+create_base	test/template_test.rb	/^  def create_base$/;"	f	language:Ruby	class:TemplateTest
+protect_against_forgery?	test/template_test.rb	/^    def base.protect_against_forgery?; false; end$/;"	S	language:Ruby	method:TemplateTest.create_base
+render	test/template_test.rb	/^  def render(text, options = {})$/;"	f	language:Ruby	class:TemplateTest
+load_result	test/template_test.rb	/^  def load_result(name)$/;"	f	language:Ruby	class:TemplateTest
+assert_renders_correctly	test/template_test.rb	/^  def assert_renders_correctly(name, &render_method)$/;"	f	language:Ruby	class:TemplateTest
+MAJOR	test/template_test.rb	/^        (ActionPack::VERSION::MAJOR == 2 && ActionPack::VERSION::MINOR < 2)$/;"	c	language:Ruby
+test_empty_render_should_remain_empty	test/template_test.rb	/^  def test_empty_render_should_remain_empty$/;"	f	language:Ruby	class:TemplateTest
+test_render_method_returning_null_with_ugly	test/template_test.rb	/^  def test_render_method_returning_null_with_ugly$/;"	f	language:Ruby	class:TemplateTest
+empty	test/template_test.rb	/^      def empty$/;"	f	language:Ruby	method:TemplateTest.test_render_method_returning_null_with_ugly
+render_something	test/template_test.rb	/^      def render_something(&block)$/;"	f	language:Ruby	method:TemplateTest.test_render_method_returning_null_with_ugly
+test_simple_rendering_with_ugly	test/template_test.rb	/^  def test_simple_rendering_with_ugly$/;"	f	language:Ruby	class:TemplateTest
+test_templates_should_render_correctly_with_render_proc	test/template_test.rb	/^  def test_templates_should_render_correctly_with_render_proc$/;"	f	language:Ruby	class:TemplateTest
+test_templates_should_render_correctly_with_def_method	test/template_test.rb	/^  def test_templates_should_render_correctly_with_def_method$/;"	f	language:Ruby	class:TemplateTest
+test_instance_variables_should_work_inside_templates	test/template_test.rb	/^  def test_instance_variables_should_work_inside_templates$/;"	f	language:Ruby	class:TemplateTest
+test_instance_variables_should_work_inside_attributes	test/template_test.rb	/^  def test_instance_variables_should_work_inside_attributes$/;"	f	language:Ruby	class:TemplateTest
+test_template_renders_should_eval	test/template_test.rb	/^  def test_template_renders_should_eval$/;"	f	language:Ruby	class:TemplateTest
+test_haml_options	test/template_test.rb	/^  def test_haml_options$/;"	f	language:Ruby	class:TemplateTest
+test_with_output_buffer_with_ugly	test/template_test.rb	/^  def test_with_output_buffer_with_ugly$/;"	f	language:Ruby	class:TemplateTest
+test_exceptions_should_work_correctly	test/template_test.rb	/^  def test_exceptions_should_work_correctly$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly
+test_form_builder_label_with_block	test/template_test.rb	/^  def test_form_builder_label_with_block$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly
+test_escape_html_option_set	test/template_test.rb	/^  def test_escape_html_option_set$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_xss_protection	test/template_test.rb	/^  def test_xss_protection$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_xss_protection_with_safe_strings	test/template_test.rb	/^  def test_xss_protection_with_safe_strings$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_xss_protection_with_bang	test/template_test.rb	/^  def test_xss_protection_with_bang$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_xss_protection_in_interpolation	test/template_test.rb	/^  def test_xss_protection_in_interpolation$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_xss_protection_in_attributes	test/template_test.rb	/^  def test_xss_protection_in_attributes$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_xss_protection_in_attributes_with_safe_strings	test/template_test.rb	/^  def test_xss_protection_in_attributes_with_safe_strings$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_xss_protection_with_bang_in_interpolation	test/template_test.rb	/^  def test_xss_protection_with_bang_in_interpolation$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_xss_protection_with_safe_strings_in_interpolation	test/template_test.rb	/^  def test_xss_protection_with_safe_strings_in_interpolation$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_xss_protection_with_mixed_strings_in_interpolation	test/template_test.rb	/^  def test_xss_protection_with_mixed_strings_in_interpolation$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_rendered_string_is_html_safe	test/template_test.rb	/^  def test_rendered_string_is_html_safe$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_rendered_string_is_html_safe_with_action_view	test/template_test.rb	/^  def test_rendered_string_is_html_safe_with_action_view$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_xss_html_escaping_with_non_strings	test/template_test.rb	/^  def test_xss_html_escaping_with_non_strings$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_xss_protection_with_concat	test/template_test.rb	/^  def test_xss_protection_with_concat$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_xss_protection_with_concat_with_safe_string	test/template_test.rb	/^  def test_xss_protection_with_concat_with_safe_string$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_xss_protection_with_safe_concat	test/template_test.rb	/^  def test_xss_protection_with_safe_concat$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_xss_protection_with_nested_haml_tag	test/template_test.rb	/^  def test_xss_protection_with_nested_haml_tag$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block
+test_rjs	test/template_test.rb	/^    def test_rjs$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block.test_xss_protection_with_nested_haml_tag
+test_cache	test/template_test.rb	/^  def test_cache$/;"	f	language:Ruby	method:TemplateTest.test_with_output_buffer_with_ugly.test_form_builder_label_with_block.test_xss_protection_with_nested_haml_tag
+TestApp	test/test_helper.rb	/^class TestApp < Rails::Application$/;"	c	language:Ruby
+Declarative	test/test_helper.rb	/^module Declarative$/;"	m	language:Ruby
+test	test/test_helper.rb	/^  def test(name, &block)$/;"	f	language:Ruby	module:Declarative
+Unit	test/test_helper.rb	/^class MiniTest::Unit::TestCase$/;"	c	language:Ruby
+TestCase	test/test_helper.rb	/^class MiniTest::Unit::TestCase$/;"	c	language:Ruby
+TestCase	test/test_helper.rb	/^class MiniTest::Unit::TestCase$/;"	c	language:Ruby	module:MiniTest.Unit
+render	test/test_helper.rb	/^  def render(text, options = {}, base = nil, &block)$/;"	f	language:Ruby	class:TestCase
+assert_warning	test/test_helper.rb	/^  def assert_warning(message)$/;"	f	language:Ruby	class:TestCase
+silence_warnings	test/test_helper.rb	/^  def silence_warnings(&block)$/;"	f	language:Ruby	class:TestCase
+assert_raises_message	test/test_helper.rb	/^  def assert_raises_message(klass, message)$/;"	f	language:Ruby	class:TestCase
+error	test/test_helper.rb	/^  def self.error(*args)$/;"	S	language:Ruby	class:TestCase
+Base	test/helper_test.rb	/^class ActionView::Base$/;"	c	language:Ruby
+Base	test/helper_test.rb	/^class ActionView::Base$/;"	c	language:Ruby	module:ActionView
+nested_tag	test/helper_test.rb	/^  def nested_tag$/;"	f	language:Ruby	class:Base
+wacky_form	test/helper_test.rb	/^  def wacky_form$/;"	f	language:Ruby	class:Base
+Helpers	test/helper_test.rb	/^module Haml::Helpers$/;"	m	language:Ruby
+Helpers	test/helper_test.rb	/^module Haml::Helpers$/;"	m	language:Ruby	module:Haml
+something_that_uses_haml_concat	test/helper_test.rb	/^  def something_that_uses_haml_concat$/;"	f	language:Ruby	module:Helpers
+render_something_with_haml_concat	test/helper_test.rb	/^  def render_something_with_haml_concat$/;"	f	language:Ruby	module:Helpers
+render_something_with_haml_tag_and_concat	test/helper_test.rb	/^  def render_something_with_haml_tag_and_concat$/;"	f	language:Ruby	module:Helpers
+HelperTest	test/helper_test.rb	/^class HelperTest < MiniTest::Unit::TestCase$/;"	c	language:Ruby
+Post	test/helper_test.rb	/^  Post = Struct.new('Post', :body, :error_field, :errors)$/;"	c	language:Ruby
+PostErrors	test/helper_test.rb	/^  class PostErrors$/;"	c	language:Ruby	class:HelperTest
+on	test/helper_test.rb	/^    def on(name)$/;"	f	language:Ruby	class:HelperTest.PostErrors
+full_messages	test/helper_test.rb	/^    alias_method :full_messages, :on$/;"	m	language:Ruby
+[]	test/helper_test.rb	/^    def [](name)$/;"	f	language:Ruby	class:HelperTest.PostErrors
+setup	test/helper_test.rb	/^  def setup$/;"	f	language:Ruby	class:HelperTest
+render	test/helper_test.rb	/^  def render(text, options = {})$/;"	f	language:Ruby	class:HelperTest
+test_rendering_with_escapes	test/helper_test.rb	/^  def test_rendering_with_escapes$/;"	f	language:Ruby	class:HelperTest
+test_flatten	test/helper_test.rb	/^  def test_flatten$/;"	f	language:Ruby	class:HelperTest
+test_list_of_should_render_correctly	test/helper_test.rb	/^  def test_list_of_should_render_correctly$/;"	f	language:Ruby	class:HelperTest
+test_buffer_access	test/helper_test.rb	/^  def test_buffer_access$/;"	f	language:Ruby	class:HelperTest
+test_tabs	test/helper_test.rb	/^  def test_tabs$/;"	f	language:Ruby	class:HelperTest
+test_with_tabs	test/helper_test.rb	/^  def test_with_tabs$/;"	f	language:Ruby	class:HelperTest
+test_helpers_dont_leak	test/helper_test.rb	/^  def test_helpers_dont_leak$/;"	f	language:Ruby	method:HelperTest.test_with_tabs
+test_action_view_included	test/helper_test.rb	/^  def test_action_view_included$/;"	f	language:Ruby	method:HelperTest.test_with_tabs
+test_form_tag	test/helper_test.rb	/^  def test_form_tag$/;"	f	language:Ruby	method:HelperTest.test_with_tabs
+test_pre	test/helper_test.rb	/^  def test_pre$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_form_tag
+rails_text_area_helpers_emit_a_newline?	test/helper_test.rb	/^  def self.rails_text_area_helpers_emit_a_newline?$/;"	S	language:Ruby	method:HelperTest.test_with_tabs.test_form_tag
+text_area_content_regex	test/helper_test.rb	/^  def text_area_content_regex$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_form_tag
+test_text_area_tag	test/helper_test.rb	/^  def test_text_area_tag$/;"	f	language:Ruby	method:HelperTest.test_with_tabs
+test_text_area	test/helper_test.rb	/^  def test_text_area$/;"	f	language:Ruby	method:HelperTest.test_with_tabs
+test_partials_should_not_cause_textareas_to_be_indented	test/helper_test.rb	/^  def test_partials_should_not_cause_textareas_to_be_indented$/;"	f	language:Ruby	method:HelperTest.test_with_tabs
+test_textareas_should_prerve_leading_whitespace	test/helper_test.rb	/^    def test_textareas_should_prerve_leading_whitespace$/;"	f	language:Ruby	method:HelperTest.test_with_tabs
+test_textareas_should_prerve_leading_whitespace_in_partials	test/helper_test.rb	/^    def test_textareas_should_prerve_leading_whitespace_in_partials$/;"	f	language:Ruby	method:HelperTest.test_with_tabs
+test_capture_haml	test/helper_test.rb	/^  def test_capture_haml$/;"	f	language:Ruby	method:HelperTest.test_with_tabs
+test_content_tag_block	test/helper_test.rb	/^  def test_content_tag_block$/;"	f	language:Ruby	method:HelperTest.test_with_tabs
+test_content_tag_error_wrapping	test/helper_test.rb	/^  def test_content_tag_error_wrapping$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block
+test_form_tag_in_helper_with_string_block	test/helper_test.rb	/^  def test_form_tag_in_helper_with_string_block$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_name_attribute_with_id	test/helper_test.rb	/^  def test_haml_tag_name_attribute_with_id$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_name_attribute_with_colon_id	test/helper_test.rb	/^  def test_haml_tag_name_attribute_with_colon_id$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_without_name_but_with_id	test/helper_test.rb	/^  def test_haml_tag_without_name_but_with_id$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_without_name_but_with_class	test/helper_test.rb	/^  def test_haml_tag_without_name_but_with_class$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_without_name_but_with_colon_class	test/helper_test.rb	/^  def test_haml_tag_without_name_but_with_colon_class$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_name_with_id_and_class	test/helper_test.rb	/^  def test_haml_tag_name_with_id_and_class$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_name_with_class	test/helper_test.rb	/^  def test_haml_tag_name_with_class$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_name_with_class_and_id	test/helper_test.rb	/^  def test_haml_tag_name_with_class_and_id$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_name_with_id_and_multiple_classes	test/helper_test.rb	/^  def test_haml_tag_name_with_id_and_multiple_classes$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_name_with_multiple_classes_and_id	test/helper_test.rb	/^  def test_haml_tag_name_with_multiple_classes_and_id$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_name_and_attribute_classes_merging_with_id	test/helper_test.rb	/^  def test_haml_tag_name_and_attribute_classes_merging_with_id$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_name_and_attribute_classes_merging	test/helper_test.rb	/^  def test_haml_tag_name_and_attribute_classes_merging$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_name_merges_id_and_attribute_id	test/helper_test.rb	/^  def test_haml_tag_name_merges_id_and_attribute_id$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_attribute_html_escaping	test/helper_test.rb	/^  def test_haml_tag_attribute_html_escaping$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_autoclosed_tags_are_closed	test/helper_test.rb	/^  def test_haml_tag_autoclosed_tags_are_closed$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_with_class_array	test/helper_test.rb	/^  def test_haml_tag_with_class_array$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_with_id_array	test/helper_test.rb	/^  def test_haml_tag_with_id_array$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_with_data_hash	test/helper_test.rb	/^  def test_haml_tag_with_data_hash$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_non_autoclosed_tags_arent_closed	test/helper_test.rb	/^  def test_haml_tag_non_autoclosed_tags_arent_closed$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_renders_text_on_a_single_line	test/helper_test.rb	/^  def test_haml_tag_renders_text_on_a_single_line$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_raises_error_for_multiple_content	test/helper_test.rb	/^  def test_haml_tag_raises_error_for_multiple_content$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_flags	test/helper_test.rb	/^  def test_haml_tag_flags$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_error_return	test/helper_test.rb	/^  def test_haml_tag_error_return$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_with_multiline_string	test/helper_test.rb	/^  def test_haml_tag_with_multiline_string$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_concat_with_multiline_string	test/helper_test.rb	/^  def test_haml_concat_with_multiline_string$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_haml_tag_with_ugly	test/helper_test.rb	/^  def test_haml_tag_with_ugly$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping
+test_is_haml	test/helper_test.rb	/^  def test_is_haml$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+test_page_class	test/helper_test.rb	/^  def test_page_class$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+test_indented_capture	test/helper_test.rb	/^  def test_indented_capture$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+test_capture_deals_properly_with_collections	test/helper_test.rb	/^  def test_capture_deals_properly_with_collections$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+trc	test/helper_test.rb	/^      def trc(collection, &block)$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly.test_capture_deals_properly_with_collections
+test_capture_with_string_block	test/helper_test.rb	/^  def test_capture_with_string_block$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+test_capture_with_non_string_value_reurns_nil	test/helper_test.rb	/^  def test_capture_with_non_string_value_reurns_nil$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+check_capture_returns_nil	test/helper_test.rb	/^      def check_capture_returns_nil(&block)$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly.test_capture_with_non_string_value_reurns_nil
+test_find_and_preserve_with_block	test/helper_test.rb	/^  def test_find_and_preserve_with_block$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+test_find_and_preserve_with_block_and_tags	test/helper_test.rb	/^  def test_find_and_preserve_with_block_and_tags$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+test_preserve_with_block	test/helper_test.rb	/^  def test_preserve_with_block$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+test_init_haml_helpers	test/helper_test.rb	/^  def test_init_haml_helpers$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+test_non_haml	test/helper_test.rb	/^  def test_non_haml$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+test_content_tag_nested	test/helper_test.rb	/^  def test_content_tag_nested$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+test_error_return	test/helper_test.rb	/^  def test_error_return$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+test_error_return_line	test/helper_test.rb	/^  def test_error_return_line$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+Error	test/helper_test.rb	/^  rescue Haml::Error => e$/;"	c	language:Ruby
+test_error_return_line_in_helper	test/helper_test.rb	/^  def test_error_return_line_in_helper$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+Error	test/helper_test.rb	/^  rescue Haml::Error => e$/;"	c	language:Ruby
+ActsLikeTag	test/helper_test.rb	/^  class ActsLikeTag$/;"	c	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+to_s	test/helper_test.rb	/^    def to_s$/;"	f	language:Ruby	class:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly.ActsLikeTag
+test_random_class_includes_tag_helper	test/helper_test.rb	/^  def test_random_class_includes_tag_helper$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+test_capture_with_nuke_outer	test/helper_test.rb	/^  def test_capture_with_nuke_outer$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly
+test_html_escape	test/helper_test.rb	/^  def test_html_escape$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly.test_capture_with_nuke_outer
+test_html_escape_should_work_on_frozen_strings	test/helper_test.rb	/^  def test_html_escape_should_work_on_frozen_strings$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly.test_capture_with_nuke_outer
+test_html_escape_encoding	test/helper_test.rb	/^  def test_html_escape_encoding$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly.test_capture_with_nuke_outer
+test_html_escape_non_string	test/helper_test.rb	/^  def test_html_escape_non_string$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly.test_capture_with_nuke_outer
+test_escape_once	test/helper_test.rb	/^  def test_escape_once$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly.test_capture_with_nuke_outer
+test_escape_once_leaves_entity_references	test/helper_test.rb	/^  def test_escape_once_leaves_entity_references$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly.test_capture_with_nuke_outer
+test_escape_once_leaves_numeric_references	test/helper_test.rb	/^  def test_escape_once_leaves_numeric_references$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly.test_capture_with_nuke_outer
+test_escape_once_encoding	test/helper_test.rb	/^  def test_escape_once_encoding$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly.test_capture_with_nuke_outer
+test_escape_once_should_work_on_frozen_strings	test/helper_test.rb	/^  def test_escape_once_should_work_on_frozen_strings$/;"	f	language:Ruby	method:HelperTest.test_with_tabs.test_content_tag_block.test_content_tag_error_wrapping.test_haml_tag_with_ugly.test_capture_with_nuke_outer
+FiltersTest	test/filters_test.rb	/^class FiltersTest < MiniTest::Unit::TestCase$/;"	c	language:Ruby
+Error	test/filters_test.rb	/^    rescue Haml::Error => e$/;"	c	language:Ruby
+Error	test/filters_test.rb	/^    rescue Haml::Error => e$/;"	c	language:Ruby
+name	test/filters_test.rb	/^        def self.name$/;"	S	language:Ruby
+prepare	test/filters_test.rb	/^        def prepare$/;"	f	language:Ruby
+evaluate	test/filters_test.rb	/^        def evaluate(scope, locals, &block)$/;"	f	language:Ruby
+ErbFilterTest	test/filters_test.rb	/^class ErbFilterTest < MiniTest::Unit::TestCase$/;"	c	language:Ruby
+JavascriptFilterTest	test/filters_test.rb	/^class JavascriptFilterTest < MiniTest::Unit::TestCase$/;"	c	language:Ruby
+CSSFilterTest	test/filters_test.rb	/^class CSSFilterTest < MiniTest::Unit::TestCase$/;"	c	language:Ruby
+CDATAFilterTest	test/filters_test.rb	/^class CDATAFilterTest < MiniTest::Unit::TestCase$/;"	c	language:Ruby
+EscapedFilterTest	test/filters_test.rb	/^class EscapedFilterTest < MiniTest::Unit::TestCase$/;"	c	language:Ruby
+RubyFilterTest	test/filters_test.rb	/^class RubyFilterTest < MiniTest::Unit::TestCase$/;"	c	language:Ruby
+Haml Changelog	CHANGELOG.md	/^# Haml Changelog$/;"	h	language:markdown
+4.0.7	CHANGELOG.md	/^## 4.0.7$/;"	i	language:markdown
+4.0.6	CHANGELOG.md	/^## 4.0.6$/;"	i	language:markdown
+4.0.5	CHANGELOG.md	/^## 4.0.5$/;"	i	language:markdown
+4.0.4	CHANGELOG.md	/^## 4.0.4$/;"	i	language:markdown
+4.0.3	CHANGELOG.md	/^## 4.0.3$/;"	i	language:markdown
+4.0.2	CHANGELOG.md	/^## 4.0.2$/;"	i	language:markdown
+4.0.1	CHANGELOG.md	/^## 4.0.1$/;"	i	language:markdown
+4.0.0	CHANGELOG.md	/^## 4.0.0$/;"	i	language:markdown
+3.2.0	CHANGELOG.md	/^## 3.2.0$/;"	i	language:markdown
+3.1.8	CHANGELOG.md	/^## 3.1.8$/;"	i	language:markdown
+3.1.7	CHANGELOG.md	/^## 3.1.7$/;"	i	language:markdown
+3.1.6	CHANGELOG.md	/^## 3.1.6$/;"	i	language:markdown
+3.1.5	CHANGELOG.md	/^## 3.1.5$/;"	i	language:markdown
+3.1.4	CHANGELOG.md	/^## 3.1.4$/;"	i	language:markdown
+3.1.3	CHANGELOG.md	/^## 3.1.3$/;"	i	language:markdown
+3.1.2	CHANGELOG.md	/^## 3.1.2$/;"	i	language:markdown
+3.1.1	CHANGELOG.md	/^## 3.1.1$/;"	i	language:markdown
+3.1.0	CHANGELOG.md	/^## 3.1.0$/;"	i	language:markdown
+Backwards Incompatibilities -- Must Read!	CHANGELOG.md	/^### Backwards Incompatibilities -- Must Read!$/;"	k	language:markdown
+3.0.25	CHANGELOG.md	/^## 3.0.25$/;"	i	language:markdown
+3.0.24	CHANGELOG.md	/^## 3.0.24$/;"	i	language:markdown
+3.0.23	CHANGELOG.md	/^## 3.0.23$/;"	i	language:markdown
+3.0.22	CHANGELOG.md	/^## 3.0.22$/;"	i	language:markdown
+3.0.21	CHANGELOG.md	/^## 3.0.21$/;"	i	language:markdown
+3.0.20	CHANGELOG.md	/^## 3.0.20$/;"	i	language:markdown
+3.0.19	CHANGELOG.md	/^## 3.0.19$/;"	i	language:markdown
+3.0.18	CHANGELOG.md	/^## 3.0.18$/;"	i	language:markdown
+3.0.17	CHANGELOG.md	/^## 3.0.17$/;"	i	language:markdown
+3.0.16	CHANGELOG.md	/^## 3.0.16$/;"	i	language:markdown
+3.0.15	CHANGELOG.md	/^## 3.0.15$/;"	i	language:markdown
+3.0.14	CHANGELOG.md	/^## 3.0.14$/;"	i	language:markdown
+Rails 3 Support	CHANGELOG.md	/^### Rails 3 Support$/;"	k	language:markdown
+3.0.13	CHANGELOG.md	/^## 3.0.13$/;"	i	language:markdown
+Rails 3 Support	CHANGELOG.md	/^## Rails 3 Support$/;"	i	language:markdown
+Minor Improvements	CHANGELOG.md	/^### Minor Improvements$/;"	k	language:markdown
+3.0.12	CHANGELOG.md	/^## 3.0.12$/;"	i	language:markdown
+Rails 3 Support	CHANGELOG.md	/^## Rails 3 Support$/;"	i	language:markdown
+Deprecated: Rails 3 Beta 3	CHANGELOG.md	/^### Deprecated: Rails 3 Beta 3$/;"	k	language:markdown
+3.0.11	CHANGELOG.md	/^## 3.0.11$/;"	i	language:markdown
+3.0.10	CHANGELOG.md	/^## 3.0.10$/;"	i	language:markdown
+Appengine-JRuby Support	CHANGELOG.md	/^### Appengine-JRuby Support$/;"	k	language:markdown
+Bug Fixes	CHANGELOG.md	/^### Bug Fixes$/;"	k	language:markdown
+3.0.9	CHANGELOG.md	/^## 3.0.9$/;"	i	language:markdown
+3.0.8	CHANGELOG.md	/^## 3.0.8$/;"	i	language:markdown
+3.0.7	CHANGELOG.md	/^## 3.0.7$/;"	i	language:markdown
+Encoding Support	CHANGELOG.md	/^### Encoding Support$/;"	k	language:markdown
+Other Changes	CHANGELOG.md	/^### Other Changes$/;"	k	language:markdown
+Bug Fixes	CHANGELOG.md	/^### Bug Fixes$/;"	k	language:markdown
+3.0.6	CHANGELOG.md	/^## 3.0.6$/;"	i	language:markdown
+Rails 2.3.7 Support	CHANGELOG.md	/^### Rails 2.3.7 Support$/;"	k	language:markdown
+Rails 2.3.6 Support Removed	CHANGELOG.md	/^### Rails 2.3.6 Support Removed$/;"	k	language:markdown
+3.0.5	CHANGELOG.md	/^## 3.0.5$/;"	i	language:markdown
+Rails 2.3.6 Support	CHANGELOG.md	/^### Rails 2.3.6 Support$/;"	k	language:markdown
+Rails 3 Support	CHANGELOG.md	/^### Rails 3 Support$/;"	k	language:markdown
+3.0.4	CHANGELOG.md	/^## 3.0.4$/;"	i	language:markdown
+3.0.3	CHANGELOG.md	/^## 3.0.3$/;"	i	language:markdown
+Rails 3 Support	CHANGELOG.md	/^### Rails 3 Support$/;"	k	language:markdown
+3.0.2	CHANGELOG.md	/^## 3.0.2$/;"	i	language:markdown
+3.0.1	CHANGELOG.md	/^## 3.0.1$/;"	i	language:markdown
+Installation in Rails	CHANGELOG.md	/^### Installation in Rails$/;"	k	language:markdown
+Rails Test Speed	CHANGELOG.md	/^### Rails Test Speed$/;"	k	language:markdown
+3.0.0	CHANGELOG.md	/^## 3.0.0$/;"	i	language:markdown
+Backwards Incompatibilities: Must Read!	CHANGELOG.md	/^### Backwards Incompatibilities: Must Read!$/;"	k	language:markdown
+More Useful Multiline	CHANGELOG.md	/^### More Useful Multiline$/;"	k	language:markdown
+`haml_tag` and `haml_concat` Improvements	CHANGELOG.md	/^### `haml_tag` and `haml_concat` Improvements$/;"	k	language:markdown
+Basic Tag Improvements	CHANGELOG.md	/^### Basic Tag Improvements$/;"	k	language:markdown
+`:class` and `:id` Attributes Accept Ruby Arrays	CHANGELOG.md	/^### `:class` and `:id` Attributes Accept Ruby Arrays$/;"	k	language:markdown
+HTML5 Custom Data Attributes	CHANGELOG.md	/^### HTML5 Custom Data Attributes$/;"	k	language:markdown
+More Powerful `:autoclose` Option	CHANGELOG.md	/^### More Powerful `:autoclose` Option$/;"	k	language:markdown
+`--double-quote-attributes` Option	CHANGELOG.md	/^### `--double-quote-attributes` Option$/;"	k	language:markdown
+`:css` Filter	CHANGELOG.md	/^### `:css` Filter$/;"	k	language:markdown
+`haml-spec` Integration	CHANGELOG.md	/^### `haml-spec` Integration$/;"	k	language:markdown
+Ruby 1.9 Support	CHANGELOG.md	/^### Ruby 1.9 Support$/;"	k	language:markdown
+Rails Support	CHANGELOG.md	/^### Rails Support$/;"	k	language:markdown
+Rip Support	CHANGELOG.md	/^### Rip Support$/;"	k	language:markdown
+`html2haml` Improvements	CHANGELOG.md	/^### `html2haml` Improvements$/;"	k	language:markdown
+Minor Improvements	CHANGELOG.md	/^### Minor Improvements$/;"	k	language:markdown
+2.2.24	CHANGELOG.md	/^## 2.2.24$/;"	i	language:markdown
+2.2.23	CHANGELOG.md	/^## 2.2.23$/;"	i	language:markdown
+2.2.22	CHANGELOG.md	/^## 2.2.22$/;"	i	language:markdown
+2.2.21	CHANGELOG.md	/^## 2.2.21$/;"	i	language:markdown
+2.2.20	CHANGELOG.md	/^## 2.2.20$/;"	i	language:markdown
+2.2.19	CHANGELOG.md	/^## 2.2.19$/;"	i	language:markdown
+2.2.18	CHANGELOG.md	/^## 2.2.18$/;"	i	language:markdown
+2.2.17	CHANGELOG.md	/^## 2.2.17$/;"	i	language:markdown
+2.2.16	CHANGELOG.md	/^## 2.2.16$/;"	i	language:markdown
+2.2.15	CHANGELOG.md	/^## 2.2.15$/;"	i	language:markdown
+2.2.14	CHANGELOG.md	/^## 2.2.14$/;"	i	language:markdown
+2.2.13	CHANGELOG.md	/^## 2.2.13$/;"	i	language:markdown
+2.2.12	CHANGELOG.md	/^## 2.2.12$/;"	i	language:markdown
+2.2.11	CHANGELOG.md	/^## 2.2.11$/;"	i	language:markdown
+2.2.10	CHANGELOG.md	/^## 2.2.10$/;"	i	language:markdown
+2.2.9	CHANGELOG.md	/^## 2.2.9$/;"	i	language:markdown
+Rails XSS Protection	CHANGELOG.md	/^### Rails XSS Protection$/;"	k	language:markdown
+2.2.8	CHANGELOG.md	/^## 2.2.8$/;"	i	language:markdown
+2.2.7	CHANGELOG.md	/^## 2.2.7$/;"	i	language:markdown
+2.2.6	CHANGELOG.md	/^## 2.2.6$/;"	i	language:markdown
+2.2.5	CHANGELOG.md	/^## 2.2.5$/;"	i	language:markdown
+2.2.4	CHANGELOG.md	/^## 2.2.4$/;"	i	language:markdown
+2.2.3	CHANGELOG.md	/^## 2.2.3$/;"	i	language:markdown
+2.2.2	CHANGELOG.md	/^## 2.2.2$/;"	i	language:markdown
+2.2.1	CHANGELOG.md	/^## 2.2.1$/;"	i	language:markdown
+2.2.0	CHANGELOG.md	/^## 2.2.0$/;"	i	language:markdown
+Syntax Changes	CHANGELOG.md	/^### Syntax Changes$/;"	k	language:markdown
+New Options	CHANGELOG.md	/^### New Options$/;"	k	language:markdown
+Deprecations	CHANGELOG.md	/^### Deprecations$/;"	k	language:markdown
+Compatibility	CHANGELOG.md	/^### Compatibility$/;"	k	language:markdown
+Filters	CHANGELOG.md	/^### Filters$/;"	k	language:markdown
+Executables	CHANGELOG.md	/^### Executables$/;"	k	language:markdown
+Miscellaneous	CHANGELOG.md	/^### Miscellaneous$/;"	k	language:markdown
+Frequently Asked Questions	FAQ.md	/^# Frequently Asked Questions$/;"	h	language:markdown
+Haml	FAQ.md	/^## Haml$/;"	i	language:markdown
+Why is my markup indented properly in development mode, but not in production?	FAQ.md	/^### Why is my markup indented properly in development mode, but not in production?$/;"	k	language:markdown
+How do I put a punctuation mark after an element, like "`I like <strong>cake</strong>!`"?	FAQ.md	/^### How do I put a punctuation mark after an element, like "`I like <strong>cake<\/strong>!`"?$/;"	k	language:markdown
+How do I stop Haml from indenting the contents of my `pre` and `textarea` tags?	FAQ.md	/^### How do I stop Haml from indenting the contents of my `pre` and `textarea` tags?$/;"	k	language:markdown
+How do I make my long lines of Ruby code look nicer in my Haml document?	FAQ.md	/^### How do I make my long lines of Ruby code look nicer in my Haml document?$/;"	k	language:markdown
+`form_for` is printing the form tag twice!	FAQ.md	/^### `form_for` is printing the form tag twice!$/;"	k	language:markdown
+I have Haml installed. Why is Rails (only looking for `.html.erb` files | rendering Haml files as plain text | rendering Haml files as blank pages)?	FAQ.md	/^### I have Haml installed. Why is Rails (only looking for `.html.erb` files | rendering Haml fil/;"	k	language:markdown
+You still haven't answered my question!	FAQ.md	/^## You still haven't answered my question!$/;"	i	language:markdown
+Haml	README.md	/^# Haml$/;"	h	language:markdown
+Basic Usage	README.md	/^## Basic Usage$/;"	i	language:markdown
+Using Haml with Rails	README.md	/^## Using Haml with Rails$/;"	i	language:markdown
+Formatting	README.md	/^## Formatting$/;"	i	language:markdown
+Indentation	README.md	/^### Indentation$/;"	k	language:markdown
+Contributing	README.md	/^## Contributing$/;"	i	language:markdown
+Team	README.md	/^## Team$/;"	i	language:markdown
+Current Maintainers	README.md	/^### Current Maintainers$/;"	k	language:markdown
+Alumni	README.md	/^### Alumni$/;"	k	language:markdown
+License	README.md	/^## License$/;"	i	language:markdown
+default	Rakefile	/^task :default => :test$/;"	m	language:Ruby
+silence_warnings	Rakefile	/^def silence_warnings$/;"	f	language:Ruby
+benchmark	Rakefile	/^task :benchmark do$/;"	m	language:Ruby
+set_coverage_env	Rakefile	/^task :set_coverage_env do$/;"	m	language:Ruby
+coverage	Rakefile	/^task :coverage => [:set_coverage_env, :test]$/;"	m	language:Ruby
+submodules	Rakefile	/^task :submodules do$/;"	m	language:Ruby
+doc	Rakefile	/^  namespace :doc do$/;"	f	language:Ruby
+undocumented	Rakefile	/^    task :undocumented do$/;"	m	language:Ruby
+doc	Rakefile	/^  task(:doc) {sh "yard"}$/;"	m	language:Ruby
+redoc	Rakefile	/^  task(:redoc) {sh "yard -c"}$/;"	m	language:Ruby
+TIMES	Rakefile	/^  TIMES=n sets the number of runs. Defaults to 1000.$/;"	c	language:Ruby
+FILE	Rakefile	/^  FILE=str sets the file to profile. Defaults to 'standard'$/;"	c	language:Ruby
+OUTPUT	Rakefile	/^  OUTPUT=str sets the ruby-prof output format.$/;"	c	language:Ruby
+profile	Rakefile	/^task :profile do$/;"	m	language:Ruby
+gemfiles	Rakefile	/^def gemfiles$/;"	f	language:Ruby
+with_each_gemfile	Rakefile	/^def with_each_gemfile$/;"	f	language:Ruby
+test	Rakefile	/^namespace :test do$/;"	f	language:Ruby
+bundles	Rakefile	/^  namespace :bundles do$/;"	f	language:Ruby
+install	Rakefile	/^    task :install do$/;"	m	language:Ruby
+update	Rakefile	/^    task :update do$/;"	m	language:Ruby
+rails_compatibility	Rakefile	/^  task :rails_compatibility => 'test:bundles:install' do$/;"	m	language:Ruby
+rc	Rakefile	/^  task :rc => :rails_compatibility$/;"	m	language:Ruby
+Haml	lib/haml/helpers.rb	/^module Haml$/;"	m	language:Ruby
+Helpers	lib/haml/helpers.rb	/^  module Helpers$/;"	m	language:Ruby	module:Haml
+ErrorReturn	lib/haml/helpers.rb	/^    class ErrorReturn$/;"	c	language:Ruby	module:Haml.Helpers
+initialize	lib/haml/helpers.rb	/^      def initialize(method)$/;"	f	language:Ruby	class:Haml.Helpers.ErrorReturn
+to_s	lib/haml/helpers.rb	/^      def to_s$/;"	f	language:Ruby	class:Haml.Helpers.ErrorReturn
+Error	lib/haml/helpers.rb	/^      rescue Haml::Error => e$/;"	c	language:Ruby
+inspect	lib/haml/helpers.rb	/^      def inspect$/;"	f	language:Ruby	class:Haml.Helpers.ErrorReturn
+action_view?	lib/haml/helpers.rb	/^    def self.action_view?$/;"	S	language:Ruby	module:Haml.Helpers
+init_haml_helpers	lib/haml/helpers.rb	/^    def init_haml_helpers$/;"	f	language:Ruby	module:Haml.Helpers
+non_haml	lib/haml/helpers.rb	/^    def non_haml$/;"	f	language:Ruby	module:Haml.Helpers
+find_and_preserve	lib/haml/helpers.rb	/^    def find_and_preserve(input = nil, tags = haml_buffer.options[:preserve], &block)$/;"	f	language:Ruby	module:Haml.Helpers
+preserve	lib/haml/helpers.rb	/^    def preserve(input = nil, &block)$/;"	f	language:Ruby	module:Haml.Helpers
+flatten	lib/haml/helpers.rb	/^    alias_method :flatten, :preserve$/;"	m	language:Ruby
+list_of	lib/haml/helpers.rb	/^    def list_of(enum, opts={}, &block)$/;"	f	language:Ruby	module:Haml.Helpers
+html_attrs	lib/haml/helpers.rb	/^    def html_attrs(lang = 'en-US')$/;"	f	language:Ruby	module:Haml.Helpers
+tab_up	lib/haml/helpers.rb	/^    def tab_up(i = 1)$/;"	f	language:Ruby	module:Haml.Helpers
+tab_down	lib/haml/helpers.rb	/^    def tab_down(i = 1)$/;"	f	language:Ruby	module:Haml.Helpers
+with_tabs	lib/haml/helpers.rb	/^    def with_tabs(i)$/;"	f	language:Ruby	module:Haml.Helpers
+surround	lib/haml/helpers.rb	/^    def surround(front, back = front, &block)$/;"	f	language:Ruby	module:Haml.Helpers
+precede	lib/haml/helpers.rb	/^    def precede(str, &block)$/;"	f	language:Ruby	module:Haml.Helpers
+succeed	lib/haml/helpers.rb	/^    def succeed(str, &block)$/;"	f	language:Ruby	module:Haml.Helpers
+capture_haml	lib/haml/helpers.rb	/^    def capture_haml(*args, &block)$/;"	f	language:Ruby	module:Haml.Helpers
+haml_concat	lib/haml/helpers.rb	/^    def haml_concat(text = "")$/;"	f	language:Ruby	module:Haml
+haml_indent	lib/haml/helpers.rb	/^    def haml_indent$/;"	f	language:Ruby	module:Haml
+haml_tag	lib/haml/helpers.rb	/^    def haml_tag(name, *rest, &block)$/;"	f	language:Ruby	module:Haml
+HTML_ESCAPE	lib/haml/helpers.rb	/^    HTML_ESCAPE = { '&'=>'&amp;', '<'=>'&lt;', '>'=>'&gt;', '"'=>'&quot;', "'"=>'&#039;', }$/;"	c	language:Ruby
+HTML_ESCAPE_REGEX	lib/haml/helpers.rb	/^    HTML_ESCAPE_REGEX = \/[\\"><&]\/$/;"	c	language:Ruby
+html_escape	lib/haml/helpers.rb	/^      def html_escape(text)$/;"	f	language:Ruby	module:Haml
+html_escape	lib/haml/helpers.rb	/^      def html_escape(text)$/;"	f	language:Ruby	module:Haml
+HTML_ESCAPE_ONCE_REGEX	lib/haml/helpers.rb	/^    HTML_ESCAPE_ONCE_REGEX = \/[\\"><]|&(?!(?:[a-zA-Z]+|(#\\d+));)\/$/;"	c	language:Ruby
+escape_once	lib/haml/helpers.rb	/^      def escape_once(text)$/;"	f	language:Ruby	module:Haml
+escape_once	lib/haml/helpers.rb	/^      def escape_once(text)$/;"	f	language:Ruby	module:Haml
+is_haml?	lib/haml/helpers.rb	/^    def is_haml?$/;"	f	language:Ruby	module:Haml
+block_is_haml?	lib/haml/helpers.rb	/^    def block_is_haml?(block)$/;"	f	language:Ruby	module:Haml
+merge_name_and_attributes	lib/haml/helpers.rb	/^    def merge_name_and_attributes(name, attributes_hash = {})$/;"	f	language:Ruby	module:Haml
+with_haml_buffer	lib/haml/helpers.rb	/^    def with_haml_buffer(buffer)$/;"	f	language:Ruby	module:Haml
+haml_buffer	lib/haml/helpers.rb	/^    def haml_buffer$/;"	f	language:Ruby	module:Haml
+haml_bind_proc	lib/haml/helpers.rb	/^    def haml_bind_proc(&proc)$/;"	f	language:Ruby	module:Haml
+prettify	lib/haml/helpers.rb	/^    def prettify(text)$/;"	f	language:Ruby	module:Haml
+Object	lib/haml/helpers.rb	/^class Object$/;"	c	language:Ruby
+is_haml?	lib/haml/helpers.rb	/^  def is_haml?$/;"	f	language:Ruby	class:Object
+Haml	lib/haml/filters.rb	/^module Haml$/;"	m	language:Ruby
+Filters	lib/haml/filters.rb	/^  module Filters$/;"	m	language:Ruby	module:Haml
+register_tilt_filter	lib/haml/filters.rb	/^    def register_tilt_filter(name, options = {})$/;"	f	language:Ruby	module:Haml.Filters
+remove_filter	lib/haml/filters.rb	/^    def remove_filter(name)$/;"	f	language:Ruby	module:Haml.Filters
+Base	lib/haml/filters.rb	/^    module Base$/;"	m	language:Ruby	module:Haml.Filters
+included	lib/haml/filters.rb	/^      def self.included(base)$/;"	S	language:Ruby	module:Haml.Filters.Base
+render	lib/haml/filters.rb	/^      def render(text)$/;"	f	language:Ruby	module:Haml.Filters.Base
+render_with_options	lib/haml/filters.rb	/^      def render_with_options(text, options)$/;"	f	language:Ruby	module:Haml.Filters.Base
+internal_compile	lib/haml/filters.rb	/^      def internal_compile(*args)$/;"	f	language:Ruby	module:Haml.Filters.Base
+compile	lib/haml/filters.rb	/^      def compile(compiler, text)$/;"	f	language:Ruby	module:Haml.Filters.Base
+Plain	lib/haml/filters.rb	/^    module Plain$/;"	m	language:Ruby	module:Haml.Filters
+render	lib/haml/filters.rb	/^      def render(text); text; end$/;"	f	language:Ruby	module:Haml.Filters.Plain
+Javascript	lib/haml/filters.rb	/^    module Javascript$/;"	m	language:Ruby	module:Haml.Filters
+render_with_options	lib/haml/filters.rb	/^      def render_with_options(text, options)$/;"	f	language:Ruby	module:Haml.Filters.Javascript
+Css	lib/haml/filters.rb	/^    module Css$/;"	m	language:Ruby	module:Haml.Filters
+render_with_options	lib/haml/filters.rb	/^      def render_with_options(text, options)$/;"	f	language:Ruby	module:Haml.Filters.Css
+Cdata	lib/haml/filters.rb	/^    module Cdata$/;"	m	language:Ruby	module:Haml.Filters
+render	lib/haml/filters.rb	/^      def render(text)$/;"	f	language:Ruby	module:Haml.Filters.Cdata
+Escaped	lib/haml/filters.rb	/^    module Escaped$/;"	m	language:Ruby	module:Haml.Filters
+render	lib/haml/filters.rb	/^      def render(text)$/;"	f	language:Ruby	module:Haml.Filters.Escaped
+Ruby	lib/haml/filters.rb	/^    module Ruby$/;"	m	language:Ruby	module:Haml.Filters
+compile	lib/haml/filters.rb	/^      def compile(compiler, text)$/;"	f	language:Ruby	module:Haml.Filters.Ruby
+Preserve	lib/haml/filters.rb	/^    module Preserve$/;"	m	language:Ruby	module:Haml.Filters
+render	lib/haml/filters.rb	/^      def render(text)$/;"	f	language:Ruby	module:Haml.Filters.Preserve
+TiltFilter	lib/haml/filters.rb	/^    module TiltFilter$/;"	m	language:Ruby	module:Haml.Filters
+template_class	lib/haml/filters.rb	/^      def template_class$/;"	f	language:Ruby	module:Haml.Filters.TiltFilter
+extended	lib/haml/filters.rb	/^      def self.extended(base)$/;"	S	language:Ruby	module:Haml.Filters.TiltFilter
+render_with_options	lib/haml/filters.rb	/^          def render_with_options(text, compiler_options)$/;"	f	language:Ruby	singletonMethod:Haml.Filters.TiltFilter.extended
+PrecompiledTiltFilter	lib/haml/filters.rb	/^    module PrecompiledTiltFilter$/;"	m	language:Ruby	module:Haml.Filters
+precompiled	lib/haml/filters.rb	/^      def precompiled(text)$/;"	f	language:Ruby	module:Haml.Filters.PrecompiledTiltFilter
+compile	lib/haml/filters.rb	/^      def compile(compiler, text)$/;"	f	language:Ruby	module:Haml.Filters.PrecompiledTiltFilter
+Erb	lib/haml/filters.rb	/^    module Erb$/;"	m	language:Ruby	module:Haml.Filters
+precompiled	lib/haml/filters.rb	/^        def precompiled(text)$/;"	f	language:Ruby	module:Haml.Filters.Erb
+Haml	lib/haml/buffer.rb	/^module Haml$/;"	m	language:Ruby
+Buffer	lib/haml/buffer.rb	/^  class Buffer$/;"	c	language:Ruby	module:Haml
+xhtml?	lib/haml/buffer.rb	/^    def xhtml?$/;"	f	language:Ruby	class:Haml.Buffer
+html?	lib/haml/buffer.rb	/^    def html?$/;"	f	language:Ruby	class:Haml.Buffer
+html4?	lib/haml/buffer.rb	/^    def html4?$/;"	f	language:Ruby	class:Haml.Buffer
+html5?	lib/haml/buffer.rb	/^    def html5?$/;"	f	language:Ruby	class:Haml.Buffer
+toplevel?	lib/haml/buffer.rb	/^    def toplevel?$/;"	f	language:Ruby	class:Haml.Buffer
+active?	lib/haml/buffer.rb	/^    def active?$/;"	f	language:Ruby	class:Haml.Buffer
+tabulation	lib/haml/buffer.rb	/^    def tabulation$/;"	f	language:Ruby	class:Haml.Buffer
+tabulation=	lib/haml/buffer.rb	/^    def tabulation=(val)$/;"	f	language:Ruby	class:Haml.Buffer
+initialize	lib/haml/buffer.rb	/^    def initialize(upper = nil, options = {})$/;"	f	language:Ruby	class:Haml.Buffer
+push_text	lib/haml/buffer.rb	/^    def push_text(text, tab_change, dont_tab_up)$/;"	f	language:Ruby	class:Haml.Buffer
+adjust_tabs	lib/haml/buffer.rb	/^    def adjust_tabs(tab_change)$/;"	f	language:Ruby	class:Haml.Buffer
+attributes	lib/haml/buffer.rb	/^    def attributes(class_id, obj_ref, *attributes_hashes)$/;"	f	language:Ruby
+rstrip!	lib/haml/buffer.rb	/^    def rstrip!$/;"	f	language:Ruby
+merge_attrs	lib/haml/buffer.rb	/^    def self.merge_attrs(to, from)$/;"	S	language:Ruby
+fix_textareas!	lib/haml/buffer.rb	/^    def fix_textareas!(input)$/;"	f	language:Ruby
+new_encoded_string	lib/haml/buffer.rb	/^      def new_encoded_string$/;"	f	language:Ruby
+new_encoded_string	lib/haml/buffer.rb	/^      def new_encoded_string$/;"	f	language:Ruby
+tabs	lib/haml/buffer.rb	/^    def tabs(count = 0)$/;"	f	language:Ruby
+parse_object_ref	lib/haml/buffer.rb	/^    def parse_object_ref(ref)$/;"	f	language:Ruby
+underscore	lib/haml/buffer.rb	/^    def underscore(camel_cased_word)$/;"	f	language:Ruby
+Haml	lib/haml/template.rb	/^module Haml$/;"	m	language:Ruby
+Compiler	lib/haml/template.rb	/^  class Compiler$/;"	c	language:Ruby	module:Haml
+precompiled_method_return_value_with_haml_xss	lib/haml/template.rb	/^    def precompiled_method_return_value_with_haml_xss$/;"	f	language:Ruby	class:Haml.Compiler
+precompiled_method_return_value_without_haml_xss	lib/haml/template.rb	/^    alias_method :precompiled_method_return_value_without_haml_xss, :precompiled_method_return_v/;"	m	language:Ruby
+precompiled_method_return_value	lib/haml/template.rb	/^    alias_method :precompiled_method_return_value, :precompiled_method_return_value_with_haml_xs/;"	m	language:Ruby
+Helpers	lib/haml/template.rb	/^  module Helpers$/;"	m	language:Ruby	module:Haml
+Util	lib/haml/template.rb	/^  module Util$/;"	m	language:Ruby	module:Haml
+rails_xss_safe?	lib/haml/template.rb	/^    def rails_xss_safe?; true; end$/;"	f	language:Ruby	module:Haml.Util
+Haml	lib/haml/template/plugin.rb	/^module Haml$/;"	m	language:Ruby
+Plugin	lib/haml/template/plugin.rb	/^  class Plugin < ActionView::Template::Handlers::ERB.superclass$/;"	c	language:Ruby	module:Haml
+MAJOR	lib/haml/template/plugin.rb	/^    if (ActionPack::VERSION::MAJOR == 3) && (ActionPack::VERSION::MINOR < 1)$/;"	c	language:Ruby
+handles_encoding?	lib/haml/template/plugin.rb	/^    def handles_encoding?; true; end$/;"	f	language:Ruby	class:Haml.Plugin
+compile	lib/haml/template/plugin.rb	/^    def compile(template)$/;"	f	language:Ruby	class:Haml.Plugin
+call	lib/haml/template/plugin.rb	/^    def self.call(template)$/;"	S	language:Ruby	class:Haml.Plugin
+cache_fragment	lib/haml/template/plugin.rb	/^    def cache_fragment(block, name = {}, options = nil)$/;"	f	language:Ruby	class:Haml.Plugin
+Haml	lib/haml/template/options.rb	/^module Haml$/;"	m	language:Ruby
+Template	lib/haml/template/options.rb	/^  module Template$/;"	m	language:Ruby	module:Haml
+Haml	lib/haml/parser.rb	/^module Haml$/;"	m	language:Ruby
+Parser	lib/haml/parser.rb	/^  class Parser$/;"	c	language:Ruby	module:Haml
+ELEMENT	lib/haml/parser.rb	/^    ELEMENT         = ?%$/;"	c	language:Ruby
+DIV_CLASS	lib/haml/parser.rb	/^    DIV_CLASS       = ?.$/;"	c	language:Ruby
+DIV_ID	lib/haml/parser.rb	/^    DIV_ID          = ?#$/;"	c	language:Ruby
+COMMENT	lib/haml/parser.rb	/^    COMMENT         = ?\/$/;"	c	language:Ruby
+DOCTYPE	lib/haml/parser.rb	/^    DOCTYPE         = ?!$/;"	c	language:Ruby
+SCRIPT	lib/haml/parser.rb	/^    SCRIPT          = ?=$/;"	c	language:Ruby
+SANITIZE	lib/haml/parser.rb	/^    SANITIZE        = ?&$/;"	c	language:Ruby
+FLAT_SCRIPT	lib/haml/parser.rb	/^    FLAT_SCRIPT     = ?~$/;"	c	language:Ruby
+SILENT_SCRIPT	lib/haml/parser.rb	/^    SILENT_SCRIPT   = ?-$/;"	c	language:Ruby
+SILENT_COMMENT	lib/haml/parser.rb	/^    SILENT_COMMENT  = ?#$/;"	c	language:Ruby
+ESCAPE	lib/haml/parser.rb	/^    ESCAPE          = ?\\\\$/;"	c	language:Ruby
+FILTER	lib/haml/parser.rb	/^    FILTER          = ?:$/;"	c	language:Ruby
+PLAIN_TEXT	lib/haml/parser.rb	/^    PLAIN_TEXT      = -1$/;"	c	language:Ruby
+SPECIAL_CHARACTERS	lib/haml/parser.rb	/^    SPECIAL_CHARACTERS   = [$/;"	c	language:Ruby
+MULTILINE_CHAR_VALUE	lib/haml/parser.rb	/^    MULTILINE_CHAR_VALUE = ?|$/;"	c	language:Ruby
+BLOCK_WITH_SPACES	lib/haml/parser.rb	/^    BLOCK_WITH_SPACES = \/do[\\s]*\\|[\\s]*[^\\|]*[\\s]+\\|\\z\/$/;"	c	language:Ruby
+MID_BLOCK_KEYWORDS	lib/haml/parser.rb	/^    MID_BLOCK_KEYWORDS = %w[else elsif rescue ensure end when]$/;"	c	language:Ruby
+START_BLOCK_KEYWORDS	lib/haml/parser.rb	/^    START_BLOCK_KEYWORDS = %w[if begin case unless]$/;"	c	language:Ruby
+START_BLOCK_KEYWORD_REGEX	lib/haml/parser.rb	/^    START_BLOCK_KEYWORD_REGEX = \/(?:\\w+(?:,\\s*\\w+)*\\s*=\\s*)?(#{START_BLOCK_KEYWORDS.join('/;"	c	language:Ruby
+BLOCK_KEYWORD_REGEX	lib/haml/parser.rb	/^    BLOCK_KEYWORD_REGEX = \/^-?\\s*(?:(#{MID_BLOCK_KEYWORDS.join('|')})|#{START_BLOCK_KEYWORD_RE/;"	c	language:Ruby
+DOCTYPE_REGEX	lib/haml/parser.rb	/^    DOCTYPE_REGEX = \/(\\d(?:\\.\\d)?)?[\\s]*([a-z]*)\\s*([^ ]+)?\/i$/;"	c	language:Ruby
+LITERAL_VALUE_REGEX	lib/haml/parser.rb	/^    LITERAL_VALUE_REGEX = \/:(\\w*)|(["'])((?!\\\\|\\#\\{|\\#@|\\#\\$|\\2).|\\\\.)*\\2\/$/;"	c	language:Ruby
+initialize	lib/haml/parser.rb	/^    def initialize(template, options)$/;"	f	language:Ruby	module:Haml
+parse	lib/haml/parser.rb	/^    def parse$/;"	f	language:Ruby	module:Haml
+Error	lib/haml/parser.rb	/^    rescue Haml::Error => e$/;"	c	language:Ruby
+Line	lib/haml/parser.rb	/^    class Line < Struct.new(:text, :unstripped, :full, :index, :compiler, :eod)$/;"	c	language:Ruby	module:Haml
+eod?	lib/haml/parser.rb	/^      alias_method :eod?, :eod$/;"	m	language:Ruby
+tabs	lib/haml/parser.rb	/^      def tabs$/;"	f	language:Ruby	class:Haml.Line
+ParseNode	lib/haml/parser.rb	/^    class ParseNode < Struct.new(:type, :line, :value, :parent, :children)$/;"	c	language:Ruby	module:Haml
+initialize	lib/haml/parser.rb	/^      def initialize(*args)$/;"	f	language:Ruby	class:Haml.ParseNode
+inspect	lib/haml/parser.rb	/^      def inspect$/;"	f	language:Ruby	class:Haml.ParseNode
+process_indent	lib/haml/parser.rb	/^    def process_indent(line)$/;"	f	language:Ruby	module:Haml
+process_line	lib/haml/parser.rb	/^    def process_line(text, index)$/;"	f	language:Ruby	module:Haml
+block_keyword	lib/haml/parser.rb	/^    def block_keyword(text)$/;"	f	language:Ruby	module:Haml
+mid_block_keyword?	lib/haml/parser.rb	/^    def mid_block_keyword?(text)$/;"	f	language:Ruby	module:Haml
+push	lib/haml/parser.rb	/^    def push(node)$/;"	f	language:Ruby	module:Haml
+plain	lib/haml/parser.rb	/^    def plain(text, escape_html = nil)$/;"	f	language:Ruby	module:Haml
+script	lib/haml/parser.rb	/^    def script(text, escape_html = nil, preserve = false)$/;"	f	language:Ruby	module:Haml
+flat_script	lib/haml/parser.rb	/^    def flat_script(text, escape_html = nil)$/;"	f	language:Ruby	module:Haml
+silent_script	lib/haml/parser.rb	/^    def silent_script(text)$/;"	f	language:Ruby	module:Haml
+check_push_script_stack	lib/haml/parser.rb	/^    def check_push_script_stack(keyword)$/;"	f	language:Ruby	module:Haml
+haml_comment	lib/haml/parser.rb	/^    def haml_comment(text)$/;"	f	language:Ruby	module:Haml
+tag	lib/haml/parser.rb	/^    def tag(line)$/;"	f	language:Ruby	module:Haml
+div	lib/haml/parser.rb	/^    def div(line)$/;"	f	language:Ruby	module:Haml
+comment	lib/haml/parser.rb	/^    def comment(line)$/;"	f	language:Ruby	module:Haml
+doctype	lib/haml/parser.rb	/^    def doctype(line)$/;"	f	language:Ruby	module:Haml
+filter	lib/haml/parser.rb	/^    def filter(name)$/;"	f	language:Ruby	module:Haml
+close	lib/haml/parser.rb	/^    def close$/;"	f	language:Ruby	module:Haml
+close_filter	lib/haml/parser.rb	/^    def close_filter(_)$/;"	f	language:Ruby	module:Haml
+close_haml_comment	lib/haml/parser.rb	/^    def close_haml_comment(_)$/;"	f	language:Ruby	module:Haml
+close_silent_script	lib/haml/parser.rb	/^    def close_silent_script(node)$/;"	f	language:Ruby	module:Haml
+parse_class_and_id	lib/haml/parser.rb	/^    def self.parse_class_and_id(list)$/;"	S	language:Ruby	module:Haml
+parse_static_hash	lib/haml/parser.rb	/^    def parse_static_hash(text)$/;"	f	language:Ruby	module:Haml
+parse_tag	lib/haml/parser.rb	/^    def parse_tag(line)$/;"	f	language:Ruby	module:Haml
+parse_old_attributes	lib/haml/parser.rb	/^    def parse_old_attributes(line)$/;"	f	language:Ruby	module:Haml
+parse_new_attributes	lib/haml/parser.rb	/^    def parse_new_attributes(line)$/;"	f	language:Ruby	module:Haml
+parse_new_attribute	lib/haml/parser.rb	/^    def parse_new_attribute(scanner)$/;"	f	language:Ruby	module:Haml
+raw_next_line	lib/haml/parser.rb	/^    def raw_next_line$/;"	f	language:Ruby	module:Haml
+next_line	lib/haml/parser.rb	/^    def next_line$/;"	f	language:Ruby	module:Haml
+closes_flat?	lib/haml/parser.rb	/^    def closes_flat?(line)$/;"	f	language:Ruby	module:Haml
+un_next_line	lib/haml/parser.rb	/^    def un_next_line(line)$/;"	f	language:Ruby	module:Haml
+handle_multiline	lib/haml/parser.rb	/^    def handle_multiline(line)$/;"	f	language:Ruby	module:Haml
+is_multiline?	lib/haml/parser.rb	/^    def is_multiline?(text)$/;"	f	language:Ruby	module:Haml
+handle_ruby_multiline	lib/haml/parser.rb	/^    def handle_ruby_multiline(text)$/;"	f	language:Ruby	module:Haml
+is_ruby_multiline?	lib/haml/parser.rb	/^    def is_ruby_multiline?(text)$/;"	f	language:Ruby	module:Haml
+balance	lib/haml/parser.rb	/^    def balance(*args)$/;"	f	language:Ruby	module:Haml
+block_opened?	lib/haml/parser.rb	/^    def block_opened?$/;"	f	language:Ruby	module:Haml
+filter_opened?	lib/haml/parser.rb	/^    def filter_opened?$/;"	f	language:Ruby	module:Haml
+flat?	lib/haml/parser.rb	/^    def flat?$/;"	f	language:Ruby	module:Haml
+Haml	lib/haml/engine.rb	/^module Haml$/;"	m	language:Ruby
+Engine	lib/haml/engine.rb	/^  class Engine$/;"	c	language:Ruby	module:Haml
+options_for_buffer	lib/haml/engine.rb	/^    def options_for_buffer$/;"	f	language:Ruby	class:Haml.Engine
+initialize	lib/haml/engine.rb	/^    def initialize(template, options = {})$/;"	f	language:Ruby	class:Haml.Engine
+render	lib/haml/engine.rb	/^    def render(scope = Object.new, locals = {}, &block)$/;"	f	language:Ruby	class:Haml.Engine
+SyntaxError	lib/haml/engine.rb	/^      rescue ::SyntaxError => e$/;"	c	language:Ruby
+to_html	lib/haml/engine.rb	/^    alias_method :to_html, :render$/;"	m	language:Ruby
+render_proc	lib/haml/engine.rb	/^    def render_proc(scope = Object.new, *local_names)$/;"	f	language:Ruby	class:Haml.Engine
+SyntaxError	lib/haml/engine.rb	/^      rescue ::SyntaxError => e$/;"	c	language:Ruby
+def_method	lib/haml/engine.rb	/^    def def_method(object, name, *local_names)$/;"	f	language:Ruby	class:Haml.Engine
+initialize_encoding	lib/haml/engine.rb	/^      def initialize_encoding(given_value)$/;"	S	language:Ruby	class:Haml.Engine
+initialize_encoding	lib/haml/engine.rb	/^      def initialize_encoding(given_value)$/;"	S	language:Ruby	class:Haml.Engine
+set_locals	lib/haml/engine.rb	/^    def set_locals(locals, scope, scope_object)$/;"	f	language:Ruby	class:Haml.Engine
+Haml	lib/haml/railtie.rb	/^module Haml$/;"	m	language:Ruby
+Railtie	lib/haml/railtie.rb	/^  class Railtie < ::Rails::Railtie$/;"	c	language:Ruby	module:Haml
+Haml	lib/haml/exec.rb	/^module Haml$/;"	m	language:Ruby
+Exec	lib/haml/exec.rb	/^  module Exec$/;"	m	language:Ruby	module:Haml
+Generic	lib/haml/exec.rb	/^    class Generic$/;"	c	language:Ruby	module:Haml.Exec
+initialize	lib/haml/exec.rb	/^      def initialize(args)$/;"	f	language:Ruby	class:Haml.Exec.Generic
+parse!	lib/haml/exec.rb	/^      def parse!$/;"	f	language:Ruby	class:Haml.Exec.Generic
+parse	lib/haml/exec.rb	/^      def parse$/;"	f	language:Ruby	class:Haml.Exec.Generic
+to_s	lib/haml/exec.rb	/^      def to_s$/;"	f	language:Ruby	class:Haml.Exec.Generic
+get_line	lib/haml/exec.rb	/^      def get_line(exception)$/;"	f	language:Ruby	class:Haml.Exec.Generic
+set_opts	lib/haml/exec.rb	/^      def set_opts(opts)$/;"	f	language:Ruby	class:Haml.Exec.Generic
+process_result	lib/haml/exec.rb	/^      def process_result$/;"	f	language:Ruby	class:Haml.Exec.Generic
+COLORS	lib/haml/exec.rb	/^      COLORS = { :red => 31, :green => 32, :yellow => 33 }$/;"	c	language:Ruby
+puts_action	lib/haml/exec.rb	/^      def puts_action(name, color, arg)$/;"	f	language:Ruby	class:Haml.Exec.Generic
+puts	lib/haml/exec.rb	/^      def puts(*args)$/;"	f	language:Ruby	class:Haml.Exec.Generic
+color	lib/haml/exec.rb	/^      def color(color, str)$/;"	f	language:Ruby	class:Haml.Exec.Generic
+open_file	lib/haml/exec.rb	/^      def open_file(filename, flag = 'r')$/;"	f	language:Ruby	class:Haml.Exec.Generic
+handle_load_error	lib/haml/exec.rb	/^      def handle_load_error(err)$/;"	f	language:Ruby	class:Haml.Exec.Generic
+Haml	lib/haml/exec.rb	/^    class Haml < Generic$/;"	c	language:Ruby	module:Haml.Exec
+initialize	lib/haml/exec.rb	/^      def initialize(args)$/;"	f	language:Ruby	class:Haml.Exec.Haml
+set_opts	lib/haml/exec.rb	/^      def set_opts(opts)$/;"	f	language:Ruby	class:Haml.Exec.Haml
+process_result	lib/haml/exec.rb	/^      def process_result$/;"	f	language:Ruby	class:Haml.Exec.Haml
+Haml	lib/haml/util.rb	/^module Haml$/;"	m	language:Ruby
+Util	lib/haml/util.rb	/^  module Util$/;"	m	language:Ruby	module:Haml
+powerset	lib/haml/util.rb	/^    def powerset(arr)$/;"	f	language:Ruby	module:Haml.Util
+caller_info	lib/haml/util.rb	/^    def caller_info(entry = caller[1])$/;"	f	language:Ruby	module:Haml.Util
+silence_warnings	lib/haml/util.rb	/^    def silence_warnings$/;"	f	language:Ruby	module:Haml.Util
+av_template_class	lib/haml/util.rb	/^    def av_template_class(name)$/;"	f	language:Ruby	module:Haml.Util
+rails_xss_safe?	lib/haml/util.rb	/^    def rails_xss_safe?$/;"	f	language:Ruby	module:Haml.Util
+html_safe	lib/haml/util.rb	/^    def html_safe(text)$/;"	f	language:Ruby	module:Haml.Util
+check_encoding	lib/haml/util.rb	/^      def check_encoding(str)$/;"	f	language:Ruby	module:Haml.Util
+check_encoding	lib/haml/util.rb	/^      def check_encoding(str)$/;"	f	language:Ruby	module:Haml.Util
+UndefinedConversionError	lib/haml/util.rb	/^          rescue Encoding::UndefinedConversionError => e$/;"	c	language:Ruby
+check_haml_encoding	lib/haml/util.rb	/^      def check_haml_encoding(str, &block)$/;"	f	language:Ruby	module:Haml.Util
+check_haml_encoding	lib/haml/util.rb	/^      def check_haml_encoding(str, &block)$/;"	f	language:Ruby	module:Haml.Util
+inspect_obj	lib/haml/util.rb	/^      def inspect_obj(obj)$/;"	f	language:Ruby	module:Haml.Util
+inspect_obj	lib/haml/util.rb	/^      def inspect_obj(obj)$/;"	f	language:Ruby	module:Haml.Util
+StaticConditionalContext	lib/haml/util.rb	/^    class StaticConditionalContext$/;"	c	language:Ruby	module:Haml.Util
+initialize	lib/haml/util.rb	/^      def initialize(set)$/;"	f	language:Ruby	class:Haml.Util.StaticConditionalContext
+method_missing	lib/haml/util.rb	/^      def method_missing(name, *args, &block)$/;"	f	language:Ruby	class:Haml.Util.StaticConditionalContext
+def_static_method	lib/haml/util.rb	/^    def def_static_method(klass, name, args, *vars)$/;"	f	language:Ruby	module:Haml.Util
+static_method_name	lib/haml/util.rb	/^    def static_method_name(name, *vars)$/;"	f	language:Ruby	module:Haml.Util
+handle_interpolation	lib/haml/util.rb	/^    def handle_interpolation(str)$/;"	f	language:Ruby	module:Haml.Util
+balance	lib/haml/util.rb	/^    def balance(scanner, start, finish, count = 0)$/;"	f	language:Ruby	module:Haml.Util
+human_indentation	lib/haml/util.rb	/^    def human_indentation(indentation)$/;"	f	language:Ruby	module:Haml.Util
+contains_interpolation?	lib/haml/util.rb	/^    def contains_interpolation?(str)$/;"	f	language:Ruby	module:Haml.Util
+unescape_interpolation	lib/haml/util.rb	/^    def unescape_interpolation(str, escape_html = nil)$/;"	f	language:Ruby	module:Haml.Util
+parse_haml_magic_comment	lib/haml/util.rb	/^    def parse_haml_magic_comment(str)$/;"	f	language:Ruby	module:Haml.Util
+try_parse_haml_emacs_magic_comment	lib/haml/util.rb	/^    def try_parse_haml_emacs_magic_comment(scanner)$/;"	f	language:Ruby	module:Haml.Util
+Haml	lib/haml/compiler.rb	/^module Haml$/;"	m	language:Ruby
+Compiler	lib/haml/compiler.rb	/^  class Compiler$/;"	c	language:Ruby	module:Haml
+initialize	lib/haml/compiler.rb	/^    def initialize(options)$/;"	f	language:Ruby	class:Haml.Compiler
+compile	lib/haml/compiler.rb	/^    def compile(node)$/;"	f	language:Ruby	class:Haml.Compiler
+precompiled	lib/haml/compiler.rb	/^      def precompiled$/;"	S	language:Ruby	class:Haml.Compiler
+precompiled	lib/haml/compiler.rb	/^      def precompiled$/;"	S	language:Ruby	class:Haml.Compiler
+precompiled_with_return_value	lib/haml/compiler.rb	/^    def precompiled_with_return_value$/;"	f	language:Ruby	class:Haml.Compiler
+precompiled_with_ambles	lib/haml/compiler.rb	/^    def precompiled_with_ambles(local_names)$/;"	f	language:Ruby	class:Haml.Compiler
+precompiled_method_return_value	lib/haml/compiler.rb	/^    def precompiled_method_return_value$/;"	f	language:Ruby	class:Haml.Compiler
+locals_code	lib/haml/compiler.rb	/^    def locals_code(names)$/;"	f	language:Ruby	class:Haml.Compiler
+compile_root	lib/haml/compiler.rb	/^    def compile_root$/;"	f	language:Ruby	class:Haml.Compiler
+compile_plain	lib/haml/compiler.rb	/^    def compile_plain$/;"	f	language:Ruby	class:Haml.Compiler
+nuke_inner_whitespace?	lib/haml/compiler.rb	/^    def nuke_inner_whitespace?(node)$/;"	f	language:Ruby	class:Haml.Compiler
+compile_script	lib/haml/compiler.rb	/^    def compile_script(&block)$/;"	f	language:Ruby	class:Haml.Compiler
+compile_silent_script	lib/haml/compiler.rb	/^    def compile_silent_script$/;"	f	language:Ruby	class:Haml.Compiler
+compile_haml_comment	lib/haml/compiler.rb	/^    def compile_haml_comment; end$/;"	f	language:Ruby	class:Haml.Compiler
+compile_tag	lib/haml/compiler.rb	/^    def compile_tag$/;"	f	language:Ruby	class:Haml.Compiler
+compile_comment	lib/haml/compiler.rb	/^    def compile_comment$/;"	f	language:Ruby	module:Haml
+compile_doctype	lib/haml/compiler.rb	/^    def compile_doctype$/;"	f	language:Ruby	module:Haml
+compile_filter	lib/haml/compiler.rb	/^    def compile_filter$/;"	f	language:Ruby	module:Haml
+text_for_doctype	lib/haml/compiler.rb	/^    def text_for_doctype$/;"	f	language:Ruby	module:Haml
+push_silent	lib/haml/compiler.rb	/^    def push_silent(text, can_suppress = false)$/;"	f	language:Ruby	module:Haml
+push_merged_text	lib/haml/compiler.rb	/^    def push_merged_text(text, tab_change = 0, indent = true)$/;"	f	language:Ruby	module:Haml
+concat_merged_text	lib/haml/compiler.rb	/^    def concat_merged_text(text)$/;"	f	language:Ruby	module:Haml
+push_text	lib/haml/compiler.rb	/^    def push_text(text, tab_change = 0)$/;"	f	language:Ruby	module:Haml
+flush_merged_text	lib/haml/compiler.rb	/^    def flush_merged_text$/;"	f	language:Ruby	module:Haml
+push_script	lib/haml/compiler.rb	/^    def push_script(text, opts = {})$/;"	f	language:Ruby	module:Haml
+push_generated_script	lib/haml/compiler.rb	/^    def push_generated_script(text)$/;"	f	language:Ruby	module:Haml
+build_attributes	lib/haml/compiler.rb	/^    def self.build_attributes(is_html, attr_wrapper, escape_attrs, hyphenate_data_attrs, attribu/;"	S	language:Ruby	module:Haml
+filter_and_join	lib/haml/compiler.rb	/^    def self.filter_and_join(value, separator)$/;"	S	language:Ruby	module:Haml
+build_data_keys	lib/haml/compiler.rb	/^    def self.build_data_keys(data_hash, hyphenate, attr_name="data")$/;"	S	language:Ruby	module:Haml
+flatten_data_attributes	lib/haml/compiler.rb	/^    def self.flatten_data_attributes(data, key, join_char, seen = [])$/;"	S	language:Ruby	module:Haml
+prerender_tag	lib/haml/compiler.rb	/^    def prerender_tag(name, self_close, attributes)$/;"	f	language:Ruby	module:Haml
+resolve_newlines	lib/haml/compiler.rb	/^    def resolve_newlines$/;"	f	language:Ruby	module:Haml
+rstrip_buffer!	lib/haml/compiler.rb	/^    def rstrip_buffer!(index = -1)$/;"	f	language:Ruby	module:Haml
+Haml	lib/haml/version.rb	/^module Haml$/;"	m	language:Ruby
+VERSION	lib/haml/version.rb	/^  VERSION = '4.0.7'$/;"	c	language:Ruby
+Haml	lib/haml/error.rb	/^module Haml$/;"	m	language:Ruby
+Error	lib/haml/error.rb	/^  class Error < StandardError$/;"	c	language:Ruby	module:Haml
+MESSAGES	lib/haml/error.rb	/^    MESSAGES = {$/;"	c	language:Ruby
+message	lib/haml/error.rb	/^    def self.message(key, *args)$/;"	S	language:Ruby	class:Haml.Error
+initialize	lib/haml/error.rb	/^    def initialize(message = nil, line = nil)$/;"	f	language:Ruby	class:Haml.Error
+SyntaxError	lib/haml/error.rb	/^  class SyntaxError < Error; end$/;"	c	language:Ruby	module:Haml
+Haml	lib/haml/options.rb	/^module Haml$/;"	m	language:Ruby
+Options	lib/haml/options.rb	/^  class Options$/;"	c	language:Ruby	module:Haml
+defaults	lib/haml/options.rb	/^    def self.defaults$/;"	S	language:Ruby	class:Haml.Options
+valid_formats	lib/haml/options.rb	/^    def self.valid_formats$/;"	S	language:Ruby	class:Haml.Options
+buffer_option_keys	lib/haml/options.rb	/^    def self.buffer_option_keys$/;"	S	language:Ruby	class:Haml.Options
+initialize	lib/haml/options.rb	/^    def initialize(values = {}, &block)$/;"	f	language:Ruby	class:Haml.Options
+[]	lib/haml/options.rb	/^    def [](key)$/;"	f	language:Ruby	class:Haml.Options
+[]=	lib/haml/options.rb	/^    def []=(key, value)$/;"	f	language:Ruby	class:Haml.Options
+xhtml?	lib/haml/options.rb	/^    def xhtml?$/;"	f	language:Ruby	class:Haml.Options
+html?	lib/haml/options.rb	/^    def html?$/;"	f	language:Ruby	class:Haml.Options
+html4?	lib/haml/options.rb	/^    def html4?$/;"	f	language:Ruby	class:Haml.Options
+html5?	lib/haml/options.rb	/^    def html5?$/;"	f	language:Ruby	class:Haml.Options
+attr_wrapper=	lib/haml/options.rb	/^    def attr_wrapper=(value)$/;"	f	language:Ruby	class:Haml.Options
+format	lib/haml/options.rb	/^    def format$/;"	f	language:Ruby	class:Haml.Options
+format=	lib/haml/options.rb	/^    def format=(value)$/;"	f	language:Ruby	class:Haml.Options
+cdata	lib/haml/options.rb	/^    def cdata$/;"	f	language:Ruby	class:Haml.Options
+remove_whitespace=	lib/haml/options.rb	/^    def remove_whitespace=(value)$/;"	f	language:Ruby	class:Haml.Options
+encoding=	lib/haml/options.rb	/^      def encoding=(value)$/;"	S	language:Ruby	class:Haml.Options
+for_buffer	lib/haml/options.rb	/^    def for_buffer$/;"	f	language:Ruby	class:Haml.Options
+defaults	lib/haml/options.rb	/^    def defaults$/;"	f	language:Ruby	class:Haml.Options
+ActionView	lib/haml/helpers/action_view_xss_mods.rb	/^module ActionView$/;"	m	language:Ruby
+Helpers	lib/haml/helpers/action_view_xss_mods.rb	/^  module Helpers$/;"	m	language:Ruby	module:ActionView
+CaptureHelper	lib/haml/helpers/action_view_xss_mods.rb	/^    module CaptureHelper$/;"	m	language:Ruby	module:ActionView.Helpers
+with_output_buffer_with_haml_xss	lib/haml/helpers/action_view_xss_mods.rb	/^      def with_output_buffer_with_haml_xss(*args, &block)$/;"	f	language:Ruby	module:ActionView.Helpers.CaptureHelper
+with_output_buffer_without_haml_xss	lib/haml/helpers/action_view_xss_mods.rb	/^      alias_method :with_output_buffer_without_haml_xss, :with_output_buffer$/;"	m	language:Ruby
+with_output_buffer	lib/haml/helpers/action_view_xss_mods.rb	/^      alias_method :with_output_buffer, :with_output_buffer_with_haml_xss$/;"	m	language:Ruby
+FormTagHelper	lib/haml/helpers/action_view_xss_mods.rb	/^    module FormTagHelper$/;"	m	language:Ruby	module:ActionView.Helpers
+form_tag_with_haml_xss	lib/haml/helpers/action_view_xss_mods.rb	/^      def form_tag_with_haml_xss(*args, &block)$/;"	f	language:Ruby	module:ActionView.Helpers.FormTagHelper
+form_tag_without_haml_xss	lib/haml/helpers/action_view_xss_mods.rb	/^      alias_method :form_tag_without_haml_xss, :form_tag$/;"	m	language:Ruby
+form_tag	lib/haml/helpers/action_view_xss_mods.rb	/^      alias_method :form_tag, :form_tag_with_haml_xss$/;"	m	language:Ruby
+FormHelper	lib/haml/helpers/action_view_xss_mods.rb	/^    module FormHelper$/;"	m	language:Ruby	module:ActionView.Helpers
+form_for_with_haml_xss	lib/haml/helpers/action_view_xss_mods.rb	/^      def form_for_with_haml_xss(*args, &block)$/;"	f	language:Ruby	module:ActionView.Helpers.FormHelper
+form_for_without_haml_xss	lib/haml/helpers/action_view_xss_mods.rb	/^      alias_method :form_for_without_haml_xss, :form_for$/;"	m	language:Ruby
+form_for	lib/haml/helpers/action_view_xss_mods.rb	/^      alias_method :form_for, :form_for_with_haml_xss$/;"	m	language:Ruby
+TextHelper	lib/haml/helpers/action_view_xss_mods.rb	/^    module TextHelper$/;"	m	language:Ruby	module:ActionView.Helpers
+concat_with_haml_xss	lib/haml/helpers/action_view_xss_mods.rb	/^      def concat_with_haml_xss(string)$/;"	f	language:Ruby	module:ActionView.Helpers.TextHelper
+concat_without_haml_xss	lib/haml/helpers/action_view_xss_mods.rb	/^      alias_method :concat_without_haml_xss, :concat$/;"	m	language:Ruby
+concat	lib/haml/helpers/action_view_xss_mods.rb	/^      alias_method :concat, :concat_with_haml_xss$/;"	m	language:Ruby
+safe_concat_with_haml_xss	lib/haml/helpers/action_view_xss_mods.rb	/^      def safe_concat_with_haml_xss(string)$/;"	f	language:Ruby	module:ActionView.Helpers.TextHelper
+safe_concat_without_haml_xss	lib/haml/helpers/action_view_xss_mods.rb	/^      alias_method :safe_concat_without_haml_xss, :safe_concat$/;"	m	language:Ruby
+safe_concat	lib/haml/helpers/action_view_xss_mods.rb	/^      alias_method :safe_concat, :safe_concat_with_haml_xss$/;"	m	language:Ruby
+ActionView	lib/haml/helpers/action_view_mods.rb	/^module ActionView$/;"	m	language:Ruby
+Base	lib/haml/helpers/action_view_mods.rb	/^  class Base$/;"	c	language:Ruby	module:ActionView
+render_with_haml	lib/haml/helpers/action_view_mods.rb	/^    def render_with_haml(*args, &block)$/;"	f	language:Ruby	class:ActionView.Base
+render_without_haml	lib/haml/helpers/action_view_mods.rb	/^    alias_method :render_without_haml, :render$/;"	m	language:Ruby
+render	lib/haml/helpers/action_view_mods.rb	/^    alias_method :render, :render_with_haml$/;"	m	language:Ruby
+output_buffer_with_haml	lib/haml/helpers/action_view_mods.rb	/^    def output_buffer_with_haml$/;"	f	language:Ruby	class:ActionView.Base
+output_buffer_without_haml	lib/haml/helpers/action_view_mods.rb	/^    alias_method :output_buffer_without_haml, :output_buffer$/;"	m	language:Ruby
+output_buffer	lib/haml/helpers/action_view_mods.rb	/^    alias_method :output_buffer, :output_buffer_with_haml$/;"	m	language:Ruby
+set_output_buffer_with_haml	lib/haml/helpers/action_view_mods.rb	/^    def set_output_buffer_with_haml(new_buffer)$/;"	f	language:Ruby	class:ActionView.Base
+set_output_buffer_without_haml	lib/haml/helpers/action_view_mods.rb	/^    alias_method :set_output_buffer_without_haml, :output_buffer=$/;"	m	language:Ruby
+output_buffer	lib/haml/helpers/action_view_mods.rb	/^    alias_method :output_buffer=, :set_output_buffer_with_haml$/;"	m	language:Ruby
+Helpers	lib/haml/helpers/action_view_mods.rb	/^  module Helpers$/;"	m	language:Ruby	module:ActionView
+CaptureHelper	lib/haml/helpers/action_view_mods.rb	/^    module CaptureHelper$/;"	m	language:Ruby	module:ActionView.Helpers
+capture_with_haml	lib/haml/helpers/action_view_mods.rb	/^      def capture_with_haml(*args, &block)$/;"	f	language:Ruby	module:ActionView.Helpers.CaptureHelper
+capture_without_haml	lib/haml/helpers/action_view_mods.rb	/^      alias_method :capture_without_haml, :capture$/;"	m	language:Ruby
+capture	lib/haml/helpers/action_view_mods.rb	/^      alias_method :capture, :capture_with_haml$/;"	m	language:Ruby
+TagHelper	lib/haml/helpers/action_view_mods.rb	/^    module TagHelper$/;"	m	language:Ruby	module:ActionView.Helpers
+content_tag_with_haml	lib/haml/helpers/action_view_mods.rb	/^      def content_tag_with_haml(name, *args, &block)$/;"	f	language:Ruby	module:ActionView.Helpers.TagHelper
+content_tag_without_haml	lib/haml/helpers/action_view_mods.rb	/^      alias_method :content_tag_without_haml, :content_tag$/;"	m	language:Ruby
+content_tag	lib/haml/helpers/action_view_mods.rb	/^      alias_method :content_tag, :content_tag_with_haml$/;"	m	language:Ruby
+HamlSupport	lib/haml/helpers/action_view_mods.rb	/^    module HamlSupport$/;"	m	language:Ruby	module:ActionView.Helpers
+haml_buffer	lib/haml/helpers/action_view_mods.rb	/^      def haml_buffer$/;"	f	language:Ruby	module:ActionView.Helpers.HamlSupport
+is_haml?	lib/haml/helpers/action_view_mods.rb	/^      def is_haml?$/;"	f	language:Ruby	module:ActionView.Helpers.HamlSupport
+MAJOR	lib/haml/helpers/action_view_mods.rb	/^    if ActionPack::VERSION::MAJOR == 4$/;"	c	language:Ruby
+Tags	lib/haml/helpers/action_view_mods.rb	/^      module Tags$/;"	m	language:Ruby	module:ActionView.Helpers
+TextArea	lib/haml/helpers/action_view_mods.rb	/^        class TextArea$/;"	c	language:Ruby	module:ActionView.Helpers.Tags
+InstanceTag	lib/haml/helpers/action_view_mods.rb	/^    class InstanceTag$/;"	c	language:Ruby	module:ActionView.Helpers
+content_tag	lib/haml/helpers/action_view_mods.rb	/^      def content_tag(*args, &block)$/;"	f	language:Ruby	class:ActionView.Helpers.InstanceTag
+FormTagHelper	lib/haml/helpers/action_view_mods.rb	/^    module FormTagHelper$/;"	m	language:Ruby	module:ActionView.Helpers
+form_tag_with_haml	lib/haml/helpers/action_view_mods.rb	/^      def form_tag_with_haml(url_for_options = {}, options = {}, *parameters_for_url, &proc)$/;"	f	language:Ruby	module:ActionView.Helpers.FormTagHelper
+form_tag_without_haml	lib/haml/helpers/action_view_mods.rb	/^      alias_method :form_tag_without_haml, :form_tag$/;"	m	language:Ruby
+form_tag	lib/haml/helpers/action_view_mods.rb	/^      alias_method :form_tag, :form_tag_with_haml$/;"	m	language:Ruby
+FormHelper	lib/haml/helpers/action_view_mods.rb	/^    module FormHelper$/;"	m	language:Ruby	module:ActionView.Helpers
+form_for_with_haml	lib/haml/helpers/action_view_mods.rb	/^      def form_for_with_haml(object_name, *args, &proc)$/;"	f	language:Ruby	module:ActionView.Helpers.FormHelper
+form_for_without_haml	lib/haml/helpers/action_view_mods.rb	/^      alias_method :form_for_without_haml, :form_for$/;"	m	language:Ruby
+form_for	lib/haml/helpers/action_view_mods.rb	/^      alias_method :form_for, :form_for_with_haml$/;"	m	language:Ruby
+Haml	lib/haml/helpers/safe_erubis_template.rb	/^module Haml$/;"	m	language:Ruby
+ErubisTemplateHandler	lib/haml/helpers/safe_erubis_template.rb	/^  class ErubisTemplateHandler < ActionView::Template::Handlers::Erubis$/;"	c	language:Ruby	module:Haml
+initialize	lib/haml/helpers/safe_erubis_template.rb	/^    def initialize(*args, &blk)$/;"	f	language:Ruby	class:Haml.ErubisTemplateHandler
+SafeErubisTemplate	lib/haml/helpers/safe_erubis_template.rb	/^  class SafeErubisTemplate < Tilt::ErubisTemplate$/;"	c	language:Ruby	module:Haml
+initialize_engine	lib/haml/helpers/safe_erubis_template.rb	/^    def initialize_engine$/;"	f	language:Ruby	class:Haml.SafeErubisTemplate
+prepare	lib/haml/helpers/safe_erubis_template.rb	/^    def prepare$/;"	f	language:Ruby	class:Haml.SafeErubisTemplate
+precompiled_preamble	lib/haml/helpers/safe_erubis_template.rb	/^    def precompiled_preamble(locals)$/;"	f	language:Ruby	class:Haml.SafeErubisTemplate
+precompiled_postamble	lib/haml/helpers/safe_erubis_template.rb	/^    def precompiled_postamble(locals)$/;"	f	language:Ruby	class:Haml.SafeErubisTemplate
+Haml	lib/haml/helpers/xss_mods.rb	/^module Haml$/;"	m	language:Ruby
+Helpers	lib/haml/helpers/xss_mods.rb	/^  module Helpers$/;"	m	language:Ruby	module:Haml
+XssMods	lib/haml/helpers/xss_mods.rb	/^    module XssMods$/;"	m	language:Ruby	module:Haml.Helpers
+included	lib/haml/helpers/xss_mods.rb	/^      def self.included(base)$/;"	S	language:Ruby	module:Haml.Helpers.XssMods
+html_escape_with_haml_xss	lib/haml/helpers/xss_mods.rb	/^      def html_escape_with_haml_xss(text)$/;"	f	language:Ruby	module:Haml.Helpers.XssMods
+find_and_preserve_with_haml_xss	lib/haml/helpers/xss_mods.rb	/^      def find_and_preserve_with_haml_xss(*args, &block)$/;"	f	language:Ruby	module:Haml.Helpers.XssMods
+preserve_with_haml_xss	lib/haml/helpers/xss_mods.rb	/^      def preserve_with_haml_xss(*args, &block)$/;"	f	language:Ruby	module:Haml.Helpers.XssMods
+list_of_with_haml_xss	lib/haml/helpers/xss_mods.rb	/^      def list_of_with_haml_xss(*args, &block)$/;"	f	language:Ruby	module:Haml.Helpers.XssMods
+surround_with_haml_xss	lib/haml/helpers/xss_mods.rb	/^      def surround_with_haml_xss(front, back = front, &block)$/;"	f	language:Ruby	module:Haml.Helpers.XssMods
+precede_with_haml_xss	lib/haml/helpers/xss_mods.rb	/^      def precede_with_haml_xss(str, &block)$/;"	f	language:Ruby	module:Haml.Helpers.XssMods
+succeed_with_haml_xss	lib/haml/helpers/xss_mods.rb	/^      def succeed_with_haml_xss(str, &block)$/;"	f	language:Ruby	module:Haml.Helpers.XssMods
+capture_haml_with_haml_xss	lib/haml/helpers/xss_mods.rb	/^      def capture_haml_with_haml_xss(*args, &block)$/;"	f	language:Ruby	module:Haml.Helpers.XssMods
+haml_concat_with_haml_xss	lib/haml/helpers/xss_mods.rb	/^      def haml_concat_with_haml_xss(text = "")$/;"	f	language:Ruby	module:Haml.Helpers.XssMods
+haml_indent_with_haml_xss	lib/haml/helpers/xss_mods.rb	/^      def haml_indent_with_haml_xss$/;"	f	language:Ruby	module:Haml.Helpers.XssMods
+haml_tag_with_haml_xss	lib/haml/helpers/xss_mods.rb	/^      def haml_tag_with_haml_xss(name, *rest, &block)$/;"	f	language:Ruby	module:Haml.Helpers.XssMods
+escape_once_with_haml_xss	lib/haml/helpers/xss_mods.rb	/^      def escape_once_with_haml_xss(*args)$/;"	f	language:Ruby	module:Haml.Helpers.XssMods
+haml_xss_html_escape	lib/haml/helpers/xss_mods.rb	/^      def haml_xss_html_escape(text)$/;"	f	language:Ruby	module:Haml.Helpers.XssMods
+ErrorReturn	lib/haml/helpers/xss_mods.rb	/^    class ErrorReturn$/;"	c	language:Ruby	module:Haml.Helpers
+html_safe	lib/haml/helpers/xss_mods.rb	/^      alias_method :html_safe, :to_s$/;"	m	language:Ruby
+html_safe?	lib/haml/helpers/xss_mods.rb	/^      alias_method :html_safe?, :to_s$/;"	m	language:Ruby
+html_safe!	lib/haml/helpers/xss_mods.rb	/^      alias_method :html_safe!, :to_s$/;"	m	language:Ruby
+Haml	lib/haml/helpers/action_view_extensions.rb	/^module Haml$/;"	m	language:Ruby
+Helpers	lib/haml/helpers/action_view_extensions.rb	/^  module Helpers$/;"	m	language:Ruby	module:Haml
+ActionViewExtensions	lib/haml/helpers/action_view_extensions.rb	/^    module ActionViewExtensions$/;"	m	language:Ruby	module:Haml.Helpers
+page_class	lib/haml/helpers/action_view_extensions.rb	/^      def page_class$/;"	f	language:Ruby	module:Haml.Helpers.ActionViewExtensions
+generate_content_class_names	lib/haml/helpers/action_view_extensions.rb	/^      alias_method :generate_content_class_names, :page_class$/;"	m	language:Ruby
+with_raw_haml_concat	lib/haml/helpers/action_view_extensions.rb	/^      def with_raw_haml_concat$/;"	f	language:Ruby	module:Haml.Helpers.ActionViewExtensions
+Haml	lib/haml.rb	/^module Haml$/;"	m	language:Ruby
+init_rails	lib/haml.rb	/^  def self.init_rails(*args)$/;"	S	language:Ruby	module:Haml
+view	benchmark.rb	/^def view$/;"	f	language:Ruby
+render	benchmark.rb	/^def render(view, file)$/;"	f	language:Ruby
+CallbacksHandler	yard/callbacks.rb	/^class CallbacksHandler < YARD::Handlers::Ruby::Legacy::Base$/;"	c	language:Ruby
+process	yard/callbacks.rb	/^  def process$/;"	f	language:Ruby	class:CallbacksHandler
+Haml	lib/haml/sass_rails_filter.rb	/^module Haml$/;"	m	language:Ruby
+Filters	lib/haml/sass_rails_filter.rb	/^  module Filters$/;"	m	language:Ruby	module:Haml
+SassRailsTemplate	lib/haml/sass_rails_filter.rb	/^    class SassRailsTemplate < ::Sass::Rails::SassTemplate$/;"	c	language:Ruby	module:Haml.Filters
+render	lib/haml/sass_rails_filter.rb	/^        def render(scope=Object.new, locals={}, &block)$/;"	S	language:Ruby	class:Haml.Filters.SassRailsTemplate
+render	lib/haml/sass_rails_filter.rb	/^        def render(scope=Object.new, locals={}, &block)$/;"	S	language:Ruby	class:Haml.Filters.SassRailsTemplate
+sass_options	lib/haml/sass_rails_filter.rb	/^      def sass_options(scope)$/;"	f	language:Ruby	class:Haml.Filters.SassRailsTemplate
+ScssRailsTemplate	lib/haml/sass_rails_filter.rb	/^    class ScssRailsTemplate < SassRailsTemplate$/;"	c	language:Ruby	module:Haml.Filters
+syntax	lib/haml/sass_rails_filter.rb	/^      def syntax$/;"	f	language:Ruby	class:Haml.Filters.ScssRailsTemplate
